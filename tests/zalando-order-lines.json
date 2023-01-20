@@ -1,0 +1,47 @@
+{
+  "data": [
+    {
+      "type": "OrderLine",
+      "id": "59cb8c09-acde-4759-adad-961f8e516afd",
+      "attributes": {
+        "order_line_id": "59cb8c09-acde-4759-adad-961f8e516afd",
+        "order_item_id": "b2f8dc91-4f35-3827-96d1-46c7a3acc432",
+        "status": "initial",
+        "price": {
+          "amount": 34.9,
+          "currency": "EUR"
+        },
+        "discounted_price": {
+          "amount": 34.9,
+          "currency": "EUR"
+        },
+        "created_by": "system",
+        "created_at": "2022-10-23T19:51:51.244+00:00",
+        "modified_by": "system",
+        "modified_at": "2022-10-23T19:51:51.244+00:00",
+        "source_stock_location_id": "0726651e-c242-483b-a0e5-55cfda6ecfe9"
+      },
+      "links": {
+        "self": "https://api.merchants.zalando.com/merchants/1852f48c-7ca5-41dc-8a30-bc9e817ab89b/orders/fff35ced-74ff-4ed3-a158-787f43a79757/items/b2f8dc91-4f35-3827-96d1-46c7a3acc432/lines/59cb8c09-acde-4759-adad-961f8e516afd?include"
+      },
+      "relationships": {
+        "order_line_transitions": {
+          "links": {
+            "related": "https://api.merchants.zalando.com/merchants/1852f48c-7ca5-41dc-8a30-bc9e817ab89b/orders/fff35ced-74ff-4ed3-a158-787f43a79757/items/b2f8dc91-4f35-3827-96d1-46c7a3acc432/lines/59cb8c09-acde-4759-adad-961f8e516afd/transitions"
+          }
+        }
+      },
+      "meta": {
+        "copyright": "Zalando SE 2022 All rights reserved.",
+        "possible_status_transitions": [
+          "reserved",
+          "shipped",
+          "canceled"
+        ]
+      }
+    }
+  ],
+  "links": {
+    "self": "https://api.merchants.zalando.com/merchants/1852f48c-7ca5-41dc-8a30-bc9e817ab89b/orders/fff35ced-74ff-4ed3-a158-787f43a79757/items/b2f8dc91-4f35-3827-96d1-46c7a3acc432/lines?include"
+  }
+}
