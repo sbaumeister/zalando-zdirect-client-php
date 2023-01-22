@@ -1,0 +1,4361 @@
+{
+  "items": [
+    {
+      "name": {
+        "de": "Rucksäcke",
+        "en": "Backpack"
+      },
+      "label": "backpack",
+      "tiers": {
+        "model": {
+          "optional_types": [
+            "assortment_type"
+          ],
+          "mandatory_types": [
+            "name",
+            "brand_code",
+            "size_group",
+            "target_age_groups",
+            "target_genders"
+          ],
+          "restricted_attributes": [
+            {
+              "type": {
+                "label": "assortment_type",
+                "version": "1.0.0"
+              },
+              "values": [
+                "assortment_type_7311",
+                "assortment_type_7313"
+              ]
+            }
+          ]
+        },
+        "config": {
+          "optional_types": [
+            "band",
+            "sport_straps",
+            "sport_back_length",
+            "sport_backpack_details",
+            "sport_technology",
+            "sport_type",
+            "upper_material_bags",
+            "material_construction",
+            "fastening",
+            "occasion",
+            "pattern",
+            "futter_bags",
+            "color_code.secondary",
+            "color_code.tertiary",
+            "number_of_articles_in_multipack",
+            "certificate",
+            "condition",
+            "compartments"
+          ],
+          "mandatory_types": [
+            "season_code",
+            "color_code.primary",
+            "description",
+            "media",
+            "supplier_color"
+          ],
+          "restricted_attributes": [
+            {
+              "type": {
+                "label": "band",
+                "version": "1.0.0"
+              },
+              "values": [
+                "band_287",
+                "band_286"
+              ]
+            },
+            {
+              "type": {
+                "label": "pattern",
+                "version": "1.0.0"
+              },
+              "values": [
+                "pattern_4316",
+                "pattern_4315",
+                "pattern_7281",
+                "pattern_7275",
+                "pattern_7280",
+                "pattern_7279",
+                "pattern_7277",
+                "pattern_4314",
+                "pattern_7282",
+                "pattern_4313",
+                "pattern_4311",
+                "pattern_7278",
+                "pattern_5322",
+                "pattern_4310",
+                "pattern_4312"
+              ]
+            },
+            {
+              "type": {
+                "label": "condition",
+                "version": "1"
+              },
+              "values": [
+                "condition_8531",
+                "condition_8532"
+              ]
+            },
+            {
+              "type": {
+                "label": "sport_straps",
+                "version": "1.0.0"
+              },
+              "values": [
+                "sport_straps_4867",
+                "sport_straps_4866",
+                "sport_straps_4865"
+              ]
+            },
+            {
+              "type": {
+                "label": "material_construction",
+                "version": "1.0.0"
+              },
+              "values": [
+                "material_construction_7215",
+                "material_construction_7221",
+                "material_construction_7219",
+                "material_construction_7222",
+                "material_construction_7218",
+                "material_construction_7225",
+                "material_construction_7216",
+                "material_construction_7213",
+                "material_construction_7217",
+                "material_construction_7220",
+                "material_construction_7214",
+                "material_construction_7223",
+                "material_construction_7224",
+                "material_construction_7226"
+              ]
+            },
+            {
+              "type": {
+                "label": "compartments",
+                "version": "1"
+              },
+              "values": [
+                "compartments_07",
+                "compartments_10",
+                "compartments_02",
+                "compartments_04",
+                "compartments_03",
+                "compartments_09",
+                "compartments_06",
+                "compartments_12",
+                "compartments_08",
+                "compartments_14",
+                "compartments_13",
+                "compartments_11",
+                "compartments_05",
+                "compartments_01"
+              ]
+            },
+            {
+              "type": {
+                "label": "futter_bags",
+                "version": "1.0.0"
+              },
+              "values": [
+                "futter_bags_5280",
+                "futter_bags_8224",
+                "futter_bags_6211",
+                "futter_bags_5277",
+                "futter_bags_4259",
+                "futter_bags_4257",
+                "futter_bags_4260",
+                "futter_bags_4256",
+                "futter_bags_5278",
+                "futter_bags_6261",
+                "futter_bags_5279",
+                "futter_bags_4258",
+                "futter_bags_6212",
+                "futter_bags_6259",
+                "futter_bags_4261",
+                "futter_bags_8223",
+                "futter_bags_6260",
+                "futter_bags_4255"
+              ]
+            },
+            {
+              "type": {
+                "label": "fastening",
+                "version": "1.0.0"
+              },
+              "values": [
+                "fastening_8413",
+                "fastening_8468",
+                "fastening_4318",
+                "fastening_8414",
+                "fastening_8415",
+                "fastening_8467",
+                "fastening_8402",
+                "fastening_8416"
+              ]
+            },
+            {
+              "type": {
+                "label": "sport_backpack_details",
+                "version": "1.0.0"
+              },
+              "values": [
+                "sport_backpack_details_4881",
+                "sport_backpack_details_4878",
+                "sport_backpack_details_4882",
+                "sport_backpack_details_4877",
+                "sport_backpack_details_4880"
+              ]
+            },
+            {
+              "type": {
+                "label": "upper_material_bags",
+                "version": "1.0.0"
+              },
+              "values": [
+                "upper_material_bags_5282",
+                "upper_material_bags_8220",
+                "upper_material_bags_4248",
+                "upper_material_bags_6213",
+                "upper_material_bags_6981",
+                "upper_material_bags_8210",
+                "upper_material_bags_4250",
+                "upper_material_bags_4254",
+                "upper_material_bags_6214",
+                "upper_material_bags_6265",
+                "upper_material_bags_8215",
+                "upper_material_bags_8212",
+                "upper_material_bags_8213",
+                "upper_material_bags_6263",
+                "upper_material_bags_5284",
+                "upper_material_bags_4252",
+                "upper_material_bags_5283",
+                "upper_material_bags_4251",
+                "upper_material_bags_8214",
+                "upper_material_bags_4249",
+                "upper_material_bags_8216",
+                "upper_material_bags_5281",
+                "upper_material_bags_4253",
+                "upper_material_bags_6980",
+                "upper_material_bags_8221",
+                "upper_material_bags_6264",
+                "upper_material_bags_8211",
+                "upper_material_bags_6266",
+                "upper_material_bags_8218"
+              ]
+            },
+            {
+              "type": {
+                "label": "sport_back_length",
+                "version": "1.0.0"
+              },
+              "values": [
+                "sport_back_length_4885",
+                "sport_back_length_4882",
+                "sport_back_length_4884",
+                "sport_back_length_4883"
+              ]
+            },
+            {
+              "type": {
+                "label": "occasion",
+                "version": "1.0.0"
+              },
+              "values": [
+                "occasion_7869",
+                "occasion_7228",
+                "occasion_7230",
+                "occasion_7227",
+                "occasion_7231",
+                "occasion_7232"
+              ]
+            },
+            {
+              "type": {
+                "label": "sport_type",
+                "version": "1.0.0"
+              },
+              "values": [
+                "sport_type_3648",
+                "sport_type_8235",
+                "sport_type_8233",
+                "sport_type_3646",
+                "sport_type_3643",
+                "sport_type_8234",
+                "sport_type_4587",
+                "sport_type_4589",
+                "sport_type_3642",
+                "sport_type_4594",
+                "sport_type_4584",
+                "sport_type_4586",
+                "sport_type_4593",
+                "sport_type_3644",
+                "sport_type_3640",
+                "sport_type_3641",
+                "sport_type_3645",
+                "sport_type_6387",
+                "sport_type_3647",
+                "sport_type_4591",
+                "sport_type_3650",
+                "sport_type_4590",
+                "sport_type_3649"
+              ]
+            },
+            {
+              "type": {
+                "label": "sport_technology",
+                "version": "1.0.0"
+              },
+              "values": [
+                "sport_technology_8363"
+              ]
+            }
+          ]
+        },
+        "simple": {
+          "optional_types": [
+            "metric.height",
+            "metric.length",
+            "metric.width",
+            "metric.metric_weight",
+            "metric.metric_volume"
+          ],
+          "mandatory_types": [
+            "size_codes",
+            "ean"
+          ],
+          "restricted_attributes": []
+        }
+      },
+      "current_version": "5"
+    },
+    {
+      "name": {
+        "de": "Tasche",
+        "en": "Bag"
+      },
+      "label": "bag",
+      "tiers": {
+        "model": {
+          "optional_types": [
+            "assortment_type"
+          ],
+          "mandatory_types": [
+            "name",
+            "brand_code",
+            "size_group",
+            "target_age_groups",
+            "target_genders"
+          ],
+          "restricted_attributes": [
+            {
+              "type": {
+                "label": "assortment_type",
+                "version": "1.0.0"
+              },
+              "values": [
+                "assortment_type_7311",
+                "assortment_type_7313"
+              ]
+            }
+          ]
+        },
+        "config": {
+          "optional_types": [
+            "band",
+            "sport_straps",
+            "sport_type",
+            "holder",
+            "upper_material_bags",
+            "material_construction",
+            "fastening",
+            "occasion",
+            "pattern",
+            "futter_bags",
+            "color_code.secondary",
+            "color_code.tertiary",
+            "number_of_articles_in_multipack",
+            "certificate",
+            "condition",
+            "compartments"
+          ],
+          "mandatory_types": [
+            "season_code",
+            "color_code.primary",
+            "description",
+            "media",
+            "supplier_color"
+          ],
+          "restricted_attributes": [
+            {
+              "type": {
+                "label": "band",
+                "version": "1.0.0"
+              },
+              "values": [
+                "band_287",
+                "band_286"
+              ]
+            },
+            {
+              "type": {
+                "label": "pattern",
+                "version": "1.0.0"
+              },
+              "values": [
+                "pattern_4316",
+                "pattern_7276",
+                "pattern_4315",
+                "pattern_7281",
+                "pattern_7275",
+                "pattern_7280",
+                "pattern_7279",
+                "pattern_7277",
+                "pattern_4314",
+                "pattern_7282",
+                "pattern_4313",
+                "pattern_4311",
+                "pattern_7278",
+                "pattern_5322",
+                "pattern_4310",
+                "pattern_4312"
+              ]
+            },
+            {
+              "type": {
+                "label": "condition",
+                "version": "1"
+              },
+              "values": [
+                "condition_8531",
+                "condition_8532"
+              ]
+            },
+            {
+              "type": {
+                "label": "sport_straps",
+                "version": "1.0.0"
+              },
+              "values": [
+                "sport_straps_4867",
+                "sport_straps_4866",
+                "sport_straps_4865"
+              ]
+            },
+            {
+              "type": {
+                "label": "material_construction",
+                "version": "1.0.0"
+              },
+              "values": [
+                "material_construction_7215",
+                "material_construction_8196",
+                "material_construction_7221",
+                "material_construction_7219",
+                "material_construction_7222",
+                "material_construction_8197",
+                "material_construction_7218",
+                "material_construction_7225",
+                "material_construction_7216",
+                "material_construction_7213",
+                "material_construction_7217",
+                "material_construction_8175",
+                "material_construction_7220",
+                "material_construction_7214",
+                "material_construction_7223",
+                "material_construction_7224",
+                "material_construction_7226"
+              ]
+            },
+            {
+              "type": {
+                "label": "compartments",
+                "version": "1"
+              },
+              "values": [
+                "compartments_10",
+                "compartments_02",
+                "compartments_04",
+                "compartments_03",
+                "compartments_06",
+                "compartments_12",
+                "compartments_08",
+                "compartments_11",
+                "compartments_05",
+                "compartments_01"
+              ]
+            },
+            {
+              "type": {
+                "label": "futter_bags",
+                "version": "1.0.0"
+              },
+              "values": [
+                "futter_bags_5280",
+                "futter_bags_8224",
+                "futter_bags_6211",
+                "futter_bags_5277",
+                "futter_bags_4259",
+                "futter_bags_4257",
+                "futter_bags_4260",
+                "futter_bags_4256",
+                "futter_bags_5278",
+                "futter_bags_6261",
+                "futter_bags_5279",
+                "futter_bags_4258",
+                "futter_bags_6212",
+                "futter_bags_6259",
+                "futter_bags_4261",
+                "futter_bags_8223",
+                "futter_bags_6260",
+                "futter_bags_4255"
+              ]
+            },
+            {
+              "type": {
+                "label": "fastening",
+                "version": "1.0.0"
+              },
+              "values": [
+                "fastening_8413",
+                "fastening_8468",
+                "fastening_4318",
+                "fastening_4319",
+                "fastening_8414",
+                "fastening_8415",
+                "fastening_8467",
+                "fastening_8402",
+                "fastening_8416"
+              ]
+            },
+            {
+              "type": {
+                "label": "upper_material_bags",
+                "version": "1.0.0"
+              },
+              "values": [
+                "upper_material_bags_5282",
+                "upper_material_bags_8220",
+                "upper_material_bags_4248",
+                "upper_material_bags_6213",
+                "upper_material_bags_6981",
+                "upper_material_bags_8210",
+                "upper_material_bags_4250",
+                "upper_material_bags_4254",
+                "upper_material_bags_6214",
+                "upper_material_bags_6265",
+                "upper_material_bags_8215",
+                "upper_material_bags_8212",
+                "upper_material_bags_8213",
+                "upper_material_bags_6263",
+                "upper_material_bags_5284",
+                "upper_material_bags_4252",
+                "upper_material_bags_5283",
+                "upper_material_bags_4251",
+                "upper_material_bags_8214",
+                "upper_material_bags_4249",
+                "upper_material_bags_8216",
+                "upper_material_bags_5281",
+                "upper_material_bags_4253",
+                "upper_material_bags_6980",
+                "upper_material_bags_8221",
+                "upper_material_bags_6264",
+                "upper_material_bags_8211",
+                "upper_material_bags_6266",
+                "upper_material_bags_8218"
+              ]
+            },
+            {
+              "type": {
+                "label": "holder",
+                "version": "1.0.0"
+              },
+              "values": [
+                "holder_288",
+                "holder_289"
+              ]
+            },
+            {
+              "type": {
+                "label": "occasion",
+                "version": "1.0.0"
+              },
+              "values": [
+                "occasion_7869",
+                "occasion_7228",
+                "occasion_7230",
+                "occasion_7229",
+                "occasion_7227",
+                "occasion_7231",
+                "occasion_7232"
+              ]
+            },
+            {
+              "type": {
+                "label": "sport_type",
+                "version": "1.0.0"
+              },
+              "values": [
+                "sport_type_3648",
+                "sport_type_8235",
+                "sport_type_8233",
+                "sport_type_3646",
+                "sport_type_3643",
+                "sport_type_8234",
+                "sport_type_4587",
+                "sport_type_4589",
+                "sport_type_3642",
+                "sport_type_4594",
+                "sport_type_4584",
+                "sport_type_4586",
+                "sport_type_4593",
+                "sport_type_3644",
+                "sport_type_3640",
+                "sport_type_3641",
+                "sport_type_3645",
+                "sport_type_6387",
+                "sport_type_3647",
+                "sport_type_7073",
+                "sport_type_4596",
+                "sport_type_4591",
+                "sport_type_3650",
+                "sport_type_4590",
+                "sport_type_3649"
+              ]
+            }
+          ]
+        },
+        "simple": {
+          "optional_types": [
+            "metric.height",
+            "metric.length",
+            "metric.width",
+            "metric.metric_weight",
+            "metric.metric_volume"
+          ],
+          "mandatory_types": [
+            "size_codes",
+            "ean"
+          ],
+          "restricted_attributes": []
+        }
+      },
+      "current_version": "5"
+    },
+    {
+      "name": {
+        "de": "Gürtel",
+        "en": "Belt"
+      },
+      "label": "belt",
+      "tiers": {
+        "model": {
+          "optional_types": [
+            "assortment_type"
+          ],
+          "mandatory_types": [
+            "name",
+            "brand_code",
+            "size_group",
+            "target_age_groups",
+            "target_genders"
+          ],
+          "restricted_attributes": [
+            {
+              "type": {
+                "label": "assortment_type",
+                "version": "1.0.0"
+              },
+              "values": [
+                "assortment_type_7314",
+                "assortment_type_7311",
+                "assortment_type_7313",
+                "assortment_type_7312"
+              ]
+            }
+          ]
+        },
+        "config": {
+          "optional_types": [
+            "non_textile_but_animal_parts",
+            "sport_type",
+            "material_construction",
+            "fastening",
+            "pattern",
+            "color_code.secondary",
+            "color_code.tertiary",
+            "material.upper_material_front",
+            "material.upper_material_back",
+            "number_of_articles_in_multipack",
+            "certificate",
+            "condition"
+          ],
+          "mandatory_types": [
+            "season_code",
+            "color_code.primary",
+            "description",
+            "material.upper_material_clothing",
+            "media",
+            "supplier_color"
+          ],
+          "restricted_attributes": [
+            {
+              "type": {
+                "label": "pattern",
+                "version": "1.0.0"
+              },
+              "values": [
+                "pattern_4316",
+                "pattern_7276",
+                "pattern_4315",
+                "pattern_7281",
+                "pattern_7275",
+                "pattern_7280",
+                "pattern_7279",
+                "pattern_7277",
+                "pattern_4314",
+                "pattern_7282",
+                "pattern_4313",
+                "pattern_4311",
+                "pattern_7278",
+                "pattern_5322",
+                "pattern_4310",
+                "pattern_4312"
+              ]
+            },
+            {
+              "type": {
+                "label": "condition",
+                "version": "1"
+              },
+              "values": [
+                "condition_8531",
+                "condition_8532"
+              ]
+            },
+            {
+              "type": {
+                "label": "material_construction",
+                "version": "1.0.0"
+              },
+              "values": [
+                "material_construction_7215",
+                "material_construction_7221",
+                "material_construction_7219",
+                "material_construction_7222",
+                "material_construction_7218",
+                "material_construction_7225",
+                "material_construction_7216",
+                "material_construction_7213",
+                "material_construction_7217",
+                "material_construction_8175",
+                "material_construction_7220",
+                "material_construction_7214",
+                "material_construction_7223",
+                "material_construction_7224",
+                "material_construction_7226"
+              ]
+            },
+            {
+              "type": {
+                "label": "fastening",
+                "version": "1.0.0"
+              },
+              "values": [
+                "fastening_4321",
+                "fastening_8410",
+                "fastening_8417",
+                "fastening_8479",
+                "fastening_8419",
+                "fastening_8418"
+              ]
+            },
+            {
+              "type": {
+                "label": "non_textile_but_animal_parts",
+                "version": "1.0.0"
+              },
+              "values": [
+                "non_textile_but_animal_parts_6966",
+                "non_textile_but_animal_parts_6967"
+              ]
+            },
+            {
+              "type": {
+                "label": "sport_type",
+                "version": "1.0.0"
+              },
+              "values": [
+                "sport_type_3646",
+                "sport_type_3643",
+                "sport_type_3642",
+                "sport_type_4586",
+                "sport_type_4593",
+                "sport_type_6387",
+                "sport_type_4590"
+              ]
+            }
+          ]
+        },
+        "simple": {
+          "optional_types": [
+            "metric.length",
+            "metric.width_breite",
+            "metric.metric_width_breite"
+          ],
+          "mandatory_types": [
+            "size_codes",
+            "ean"
+          ],
+          "restricted_attributes": []
+        }
+      },
+      "current_version": "5"
+    },
+    {
+      "name": {
+        "de": "Koffer",
+        "en": "Case"
+      },
+      "label": "case",
+      "tiers": {
+        "model": {
+          "optional_types": [],
+          "mandatory_types": [
+            "name",
+            "brand_code",
+            "size_group",
+            "target_age_groups",
+            "target_genders"
+          ],
+          "restricted_attributes": []
+        },
+        "config": {
+          "optional_types": [
+            "upper_material_bags",
+            "fastening",
+            "occasion",
+            "pattern",
+            "futter_bags",
+            "color_code.secondary",
+            "color_code.tertiary",
+            "ce",
+            "number_of_articles_in_multipack",
+            "certificate",
+            "condition"
+          ],
+          "mandatory_types": [
+            "season_code",
+            "color_code.primary",
+            "description",
+            "media",
+            "supplier_color"
+          ],
+          "restricted_attributes": [
+            {
+              "type": {
+                "label": "pattern",
+                "version": "1.0.0"
+              },
+              "values": [
+                "pattern_4316",
+                "pattern_7276",
+                "pattern_4315",
+                "pattern_7281",
+                "pattern_7275",
+                "pattern_7280",
+                "pattern_7279",
+                "pattern_7277",
+                "pattern_4314",
+                "pattern_7282",
+                "pattern_4313",
+                "pattern_4311",
+                "pattern_7278",
+                "pattern_5322",
+                "pattern_4310",
+                "pattern_4312"
+              ]
+            },
+            {
+              "type": {
+                "label": "condition",
+                "version": "1"
+              },
+              "values": [
+                "condition_8531",
+                "condition_8532"
+              ]
+            },
+            {
+              "type": {
+                "label": "futter_bags",
+                "version": "1.0.0"
+              },
+              "values": [
+                "futter_bags_5280",
+                "futter_bags_8224",
+                "futter_bags_6211",
+                "futter_bags_5277",
+                "futter_bags_4259",
+                "futter_bags_4257",
+                "futter_bags_4260",
+                "futter_bags_4256",
+                "futter_bags_5278",
+                "futter_bags_6261",
+                "futter_bags_5279",
+                "futter_bags_4258",
+                "futter_bags_6212",
+                "futter_bags_6259",
+                "futter_bags_4261",
+                "futter_bags_8223",
+                "futter_bags_6260",
+                "futter_bags_4255"
+              ]
+            },
+            {
+              "type": {
+                "label": "fastening",
+                "version": "1.0.0"
+              },
+              "values": [
+                "fastening_8413",
+                "fastening_4318",
+                "fastening_8414",
+                "fastening_8415",
+                "fastening_8402",
+                "fastening_8416"
+              ]
+            },
+            {
+              "type": {
+                "label": "upper_material_bags",
+                "version": "1.0.0"
+              },
+              "values": [
+                "upper_material_bags_5282",
+                "upper_material_bags_4248",
+                "upper_material_bags_6213",
+                "upper_material_bags_6981",
+                "upper_material_bags_8210",
+                "upper_material_bags_4250",
+                "upper_material_bags_4254",
+                "upper_material_bags_6214",
+                "upper_material_bags_6265",
+                "upper_material_bags_8215",
+                "upper_material_bags_6263",
+                "upper_material_bags_8209",
+                "upper_material_bags_5284",
+                "upper_material_bags_4252",
+                "upper_material_bags_5283",
+                "upper_material_bags_4251",
+                "upper_material_bags_8214",
+                "upper_material_bags_4249",
+                "upper_material_bags_5281",
+                "upper_material_bags_4253",
+                "upper_material_bags_8219",
+                "upper_material_bags_8222",
+                "upper_material_bags_6980",
+                "upper_material_bags_6264",
+                "upper_material_bags_8217",
+                "upper_material_bags_6266",
+                "upper_material_bags_8218"
+              ]
+            },
+            {
+              "type": {
+                "label": "ce",
+                "version": "1.0.0"
+              },
+              "values": [
+                "ce_7845"
+              ]
+            },
+            {
+              "type": {
+                "label": "occasion",
+                "version": "1.0.0"
+              },
+              "values": [
+                "occasion_7869",
+                "occasion_7227",
+                "occasion_7232"
+              ]
+            }
+          ]
+        },
+        "simple": {
+          "optional_types": [
+            "metric.carrying_handle",
+            "metric.height",
+            "metric.length",
+            "metric.width",
+            "metric.metric_weight",
+            "metric.metric_volume"
+          ],
+          "mandatory_types": [
+            "size_codes",
+            "ean"
+          ],
+          "restricted_attributes": []
+        }
+      },
+      "current_version": "5"
+    },
+    {
+      "name": {
+        "de": "Etuis",
+        "en": "Etui"
+      },
+      "label": "etui",
+      "tiers": {
+        "model": {
+          "optional_types": [],
+          "mandatory_types": [
+            "name",
+            "brand_code",
+            "size_group",
+            "target_age_groups",
+            "target_genders"
+          ],
+          "restricted_attributes": []
+        },
+        "config": {
+          "optional_types": [
+            "upper_material_bags",
+            "fastening",
+            "pattern",
+            "futter_bags",
+            "color_code.secondary",
+            "color_code.tertiary",
+            "number_of_articles_in_multipack",
+            "certificate",
+            "condition",
+            "compartments"
+          ],
+          "mandatory_types": [
+            "season_code",
+            "color_code.primary",
+            "description",
+            "media",
+            "supplier_color"
+          ],
+          "restricted_attributes": [
+            {
+              "type": {
+                "label": "pattern",
+                "version": "1.0.0"
+              },
+              "values": [
+                "pattern_4316",
+                "pattern_7276",
+                "pattern_4315",
+                "pattern_7281",
+                "pattern_7275",
+                "pattern_7280",
+                "pattern_7279",
+                "pattern_7277",
+                "pattern_4314",
+                "pattern_7282",
+                "pattern_4313",
+                "pattern_4311",
+                "pattern_7278",
+                "pattern_5322",
+                "pattern_4310",
+                "pattern_4312"
+              ]
+            },
+            {
+              "type": {
+                "label": "condition",
+                "version": "1"
+              },
+              "values": [
+                "condition_8531",
+                "condition_8532"
+              ]
+            },
+            {
+              "type": {
+                "label": "compartments",
+                "version": "1"
+              },
+              "values": [
+                "compartments_07",
+                "compartments_02",
+                "compartments_04",
+                "compartments_03",
+                "compartments_06",
+                "compartments_05",
+                "compartments_01"
+              ]
+            },
+            {
+              "type": {
+                "label": "futter_bags",
+                "version": "1.0.0"
+              },
+              "values": [
+                "futter_bags_5280",
+                "futter_bags_8224",
+                "futter_bags_6211",
+                "futter_bags_5277",
+                "futter_bags_4259",
+                "futter_bags_4257",
+                "futter_bags_4260",
+                "futter_bags_4256",
+                "futter_bags_5278",
+                "futter_bags_6261",
+                "futter_bags_5279",
+                "futter_bags_4258",
+                "futter_bags_6212",
+                "futter_bags_6259",
+                "futter_bags_4261",
+                "futter_bags_8223",
+                "futter_bags_6260",
+                "futter_bags_4255"
+              ]
+            },
+            {
+              "type": {
+                "label": "fastening",
+                "version": "1.0.0"
+              },
+              "values": [
+                "fastening_8413",
+                "fastening_8468",
+                "fastening_4318",
+                "fastening_8414",
+                "fastening_8415",
+                "fastening_8467",
+                "fastening_8402",
+                "fastening_8416"
+              ]
+            },
+            {
+              "type": {
+                "label": "upper_material_bags",
+                "version": "1.0.0"
+              },
+              "values": [
+                "upper_material_bags_5282",
+                "upper_material_bags_8220",
+                "upper_material_bags_4248",
+                "upper_material_bags_6213",
+                "upper_material_bags_6981",
+                "upper_material_bags_8210",
+                "upper_material_bags_4250",
+                "upper_material_bags_4254",
+                "upper_material_bags_6214",
+                "upper_material_bags_6265",
+                "upper_material_bags_8215",
+                "upper_material_bags_8212",
+                "upper_material_bags_8213",
+                "upper_material_bags_6263",
+                "upper_material_bags_5284",
+                "upper_material_bags_4252",
+                "upper_material_bags_5283",
+                "upper_material_bags_4251",
+                "upper_material_bags_8214",
+                "upper_material_bags_4249",
+                "upper_material_bags_8216",
+                "upper_material_bags_5281",
+                "upper_material_bags_4253",
+                "upper_material_bags_6980",
+                "upper_material_bags_8221",
+                "upper_material_bags_6264",
+                "upper_material_bags_8211",
+                "upper_material_bags_6266",
+                "upper_material_bags_8218"
+              ]
+            }
+          ]
+        },
+        "simple": {
+          "optional_types": [],
+          "mandatory_types": [
+            "size_codes",
+            "ean"
+          ],
+          "restricted_attributes": []
+        }
+      },
+      "current_version": "5"
+    },
+    {
+      "name": {
+        "de": "Brillen",
+        "en": "Glasses"
+      },
+      "label": "glasses",
+      "tiers": {
+        "model": {
+          "optional_types": [],
+          "mandatory_types": [
+            "name",
+            "brand_code",
+            "size_group",
+            "target_age_groups",
+            "target_genders"
+          ],
+          "restricted_attributes": []
+        },
+        "config": {
+          "optional_types": [
+            "lenses",
+            "uv_filter",
+            "sport_type",
+            "glasses_form",
+            "pattern",
+            "color_code.secondary",
+            "color_code.tertiary",
+            "ce",
+            "lens_tint",
+            "number_of_articles_in_multipack",
+            "certificate",
+            "condition"
+          ],
+          "mandatory_types": [
+            "season_code",
+            "color_code.primary",
+            "description",
+            "media",
+            "supplier_color"
+          ],
+          "restricted_attributes": [
+            {
+              "type": {
+                "label": "pattern",
+                "version": "1.0.0"
+              },
+              "values": [
+                "pattern_7282",
+                "pattern_7281",
+                "pattern_7280",
+                "pattern_7279",
+                "pattern_7278",
+                "pattern_7277",
+                "pattern_7276",
+                "pattern_7275",
+                "pattern_5322",
+                "pattern_4316",
+                "pattern_4315",
+                "pattern_4314",
+                "pattern_4313",
+                "pattern_4312",
+                "pattern_4311",
+                "pattern_4310"
+              ]
+            },
+            {
+              "type": {
+                "label": "condition",
+                "version": "1"
+              },
+              "values": [
+                "condition_8532",
+                "condition_8531"
+              ]
+            },
+            {
+              "type": {
+                "label": "lens_tint",
+                "version": "1"
+              },
+              "values": [
+                "lens_tint_8081",
+                "lens_tint_8080",
+                "lens_tint_8079",
+                "lens_tint_8078",
+                "lens_tint_8077"
+              ]
+            },
+            {
+              "type": {
+                "label": "glasses_form",
+                "version": "1.0.0"
+              },
+              "values": [
+                "glasses_form_7867",
+                "glasses_form_7866",
+                "glasses_form_6988",
+                "glasses_form_6987",
+                "glasses_form_6986",
+                "glasses_form_6985",
+                "glasses_form_6984",
+                "glasses_form_6982"
+              ]
+            },
+            {
+              "type": {
+                "label": "ce",
+                "version": "1.0.0"
+              },
+              "values": [
+                "ce_7845"
+              ]
+            },
+            {
+              "type": {
+                "label": "uv_filter",
+                "version": "1.0.0"
+              },
+              "values": [
+                "uv_filter_297",
+                "uv_filter_296"
+              ]
+            },
+            {
+              "type": {
+                "label": "lenses",
+                "version": "1.0.0"
+              },
+              "values": [
+                "lenses_299",
+                "lenses_298"
+              ]
+            },
+            {
+              "type": {
+                "label": "sport_type",
+                "version": "1.0.0"
+              },
+              "values": [
+                "sport_type_3649",
+                "sport_type_4590",
+                "sport_type_3648",
+                "sport_type_4584",
+                "sport_type_3647",
+                "sport_type_3643",
+                "sport_type_6387",
+                "sport_type_3642",
+                "sport_type_3650",
+                "sport_type_3645",
+                "sport_type_3644",
+                "sport_type_3641",
+                "sport_type_4589",
+                "sport_type_4591",
+                "sport_type_4586",
+                "sport_type_3646",
+                "sport_type_4593",
+                "sport_type_4587",
+                "sport_type_8234"
+              ]
+            }
+          ]
+        },
+        "simple": {
+          "optional_types": [
+            "metric.glasses_length",
+            "metric.glasses_width",
+            "metric.width_breite",
+            "metric.metric_width_breite"
+          ],
+          "mandatory_types": [
+            "size_codes",
+            "ean"
+          ],
+          "restricted_attributes": []
+        }
+      },
+      "current_version": "5"
+    },
+    {
+      "name": {
+        "de": "Handschuhe",
+        "en": "Gloves"
+      },
+      "label": "gloves",
+      "tiers": {
+        "model": {
+          "optional_types": [],
+          "mandatory_types": [
+            "name",
+            "brand_code",
+            "size_group",
+            "target_age_groups",
+            "target_genders"
+          ],
+          "restricted_attributes": []
+        },
+        "config": {
+          "optional_types": [
+            "washing_instructions",
+            "sport_technology",
+            "non_textile_but_animal_parts",
+            "sport_type",
+            "fastening",
+            "pattern",
+            "color_code.secondary",
+            "color_code.tertiary",
+            "material.upper_material_bottom",
+            "material.upper_material_top",
+            "material.futter_clothing",
+            "material.filling",
+            "material.upper_material_back",
+            "number_of_articles_in_multipack",
+            "certificate",
+            "condition"
+          ],
+          "mandatory_types": [
+            "season_code",
+            "color_code.primary",
+            "description",
+            "material.upper_material_clothing",
+            "media",
+            "supplier_color"
+          ],
+          "restricted_attributes": [
+            {
+              "type": {
+                "label": "pattern",
+                "version": "1.0.0"
+              },
+              "values": [
+                "pattern_7282",
+                "pattern_7281",
+                "pattern_7280",
+                "pattern_7279",
+                "pattern_7278",
+                "pattern_7277",
+                "pattern_7276",
+                "pattern_7275",
+                "pattern_5322",
+                "pattern_4316",
+                "pattern_4315",
+                "pattern_4314",
+                "pattern_4313",
+                "pattern_4312",
+                "pattern_4311",
+                "pattern_4310"
+              ]
+            },
+            {
+              "type": {
+                "label": "condition",
+                "version": "1"
+              },
+              "values": [
+                "condition_8532",
+                "condition_8531"
+              ]
+            },
+            {
+              "type": {
+                "label": "fastening",
+                "version": "1.0.0"
+              },
+              "values": [
+                "fastening_8420",
+                "fastening_8402",
+                "fastening_4322",
+                "fastening_4318"
+              ]
+            },
+            {
+              "type": {
+                "label": "non_textile_but_animal_parts",
+                "version": "1.0.0"
+              },
+              "values": [
+                "non_textile_but_animal_parts_6967",
+                "non_textile_but_animal_parts_6966"
+              ]
+            },
+            {
+              "type": {
+                "label": "sport_type",
+                "version": "1.0.0"
+              },
+              "values": [
+                "sport_type_3640",
+                "sport_type_3649",
+                "sport_type_4590",
+                "sport_type_3648",
+                "sport_type_4584",
+                "sport_type_3647",
+                "sport_type_3643",
+                "sport_type_6387",
+                "sport_type_3642",
+                "sport_type_3650",
+                "sport_type_7073",
+                "sport_type_3645",
+                "sport_type_3644",
+                "sport_type_4589",
+                "sport_type_4591",
+                "sport_type_4586",
+                "sport_type_3646",
+                "sport_type_4593",
+                "sport_type_4587",
+                "sport_type_8234"
+              ]
+            },
+            {
+              "type": {
+                "label": "washing_instructions",
+                "version": "1.0.0"
+              },
+              "values": [
+                "washing_instructions_8365",
+                "washing_instructions_8364",
+                "washing_instructions_7106",
+                "washing_instructions_7001",
+                "washing_instructions_7000",
+                "washing_instructions_6999",
+                "washing_instructions_6998",
+                "washing_instructions_6997",
+                "washing_instructions_4111",
+                "washing_instructions_4110",
+                "washing_instructions_4109",
+                "washing_instructions_4108",
+                "washing_instructions_4107",
+                "washing_instructions_4106",
+                "washing_instructions_4105",
+                "washing_instructions_4103",
+                "washing_instructions_4102"
+              ]
+            },
+            {
+              "type": {
+                "label": "sport_technology",
+                "version": "1.0.0"
+              },
+              "values": [
+                "sport_technology_8363"
+              ]
+            }
+          ]
+        },
+        "simple": {
+          "optional_types": [],
+          "mandatory_types": [
+            "size_codes",
+            "ean"
+          ],
+          "restricted_attributes": []
+        }
+      },
+      "current_version": "5"
+    },
+    {
+      "name": {
+        "de": "Kopfbedeckung",
+        "en": "Headgear"
+      },
+      "label": "headgear",
+      "tiers": {
+        "model": {
+          "optional_types": [],
+          "mandatory_types": [
+            "name",
+            "brand_code",
+            "size_group",
+            "target_age_groups",
+            "target_genders"
+          ],
+          "restricted_attributes": []
+        },
+        "config": {
+          "optional_types": [
+            "fabric_definition",
+            "washing_instructions",
+            "sport_technology",
+            "non_textile_but_animal_parts",
+            "sport_type",
+            "padding_type",
+            "material_construction",
+            "occasion",
+            "pattern",
+            "color_code.secondary",
+            "color_code.tertiary",
+            "material.upper_material_insert",
+            "material.futter_clothing",
+            "number_of_articles_in_multipack",
+            "certificate",
+            "condition"
+          ],
+          "mandatory_types": [
+            "season_code",
+            "color_code.primary",
+            "description",
+            "material.upper_material_clothing",
+            "media",
+            "supplier_color"
+          ],
+          "restricted_attributes": [
+            {
+              "type": {
+                "label": "pattern",
+                "version": "1.0.0"
+              },
+              "values": [
+                "pattern_7282",
+                "pattern_7281",
+                "pattern_7280",
+                "pattern_7279",
+                "pattern_7278",
+                "pattern_7277",
+                "pattern_7276",
+                "pattern_7275",
+                "pattern_5322",
+                "pattern_4316",
+                "pattern_4315",
+                "pattern_4314",
+                "pattern_4313",
+                "pattern_4312",
+                "pattern_4311",
+                "pattern_4310"
+              ]
+            },
+            {
+              "type": {
+                "label": "condition",
+                "version": "1"
+              },
+              "values": [
+                "condition_8532",
+                "condition_8531"
+              ]
+            },
+            {
+              "type": {
+                "label": "material_construction",
+                "version": "1.0.0"
+              },
+              "values": [
+                "material_construction_8194",
+                "material_construction_8176",
+                "material_construction_8175",
+                "material_construction_7226",
+                "material_construction_7225",
+                "material_construction_7224",
+                "material_construction_7223",
+                "material_construction_7222",
+                "material_construction_7221",
+                "material_construction_7220",
+                "material_construction_7219",
+                "material_construction_7218",
+                "material_construction_7217",
+                "material_construction_7216",
+                "material_construction_7215",
+                "material_construction_7214",
+                "material_construction_7213"
+              ]
+            },
+            {
+              "type": {
+                "label": "fabric_definition",
+                "version": "1.0.0"
+              },
+              "values": [
+                "fabric_definition_7202",
+                "fabric_definition_7201"
+              ]
+            },
+            {
+              "type": {
+                "label": "padding_type",
+                "version": "1.0.0"
+              },
+              "values": [
+                "padding_type_7238",
+                "padding_type_7237",
+                "padding_type_7236",
+                "padding_type_7235"
+              ]
+            },
+            {
+              "type": {
+                "label": "non_textile_but_animal_parts",
+                "version": "1.0.0"
+              },
+              "values": [
+                "non_textile_but_animal_parts_6967",
+                "non_textile_but_animal_parts_6966"
+              ]
+            },
+            {
+              "type": {
+                "label": "occasion",
+                "version": "1.0.0"
+              },
+              "values": [
+                "occasion_7869",
+                "occasion_7232",
+                "occasion_7231",
+                "occasion_7230",
+                "occasion_7228"
+              ]
+            },
+            {
+              "type": {
+                "label": "sport_type",
+                "version": "1.0.0"
+              },
+              "values": [
+                "sport_type_3640",
+                "sport_type_3649",
+                "sport_type_4590",
+                "sport_type_4594",
+                "sport_type_3648",
+                "sport_type_4584",
+                "sport_type_3647",
+                "sport_type_3643",
+                "sport_type_6387",
+                "sport_type_3642",
+                "sport_type_3650",
+                "sport_type_7073",
+                "sport_type_3645",
+                "sport_type_6391",
+                "sport_type_3644",
+                "sport_type_3641",
+                "sport_type_4589",
+                "sport_type_4591",
+                "sport_type_8233",
+                "sport_type_4586",
+                "sport_type_3646",
+                "sport_type_4593",
+                "sport_type_4587",
+                "sport_type_8234",
+                "sport_type_8235"
+              ]
+            },
+            {
+              "type": {
+                "label": "washing_instructions",
+                "version": "1.0.0"
+              },
+              "values": [
+                "washing_instructions_8575",
+                "washing_instructions_8365",
+                "washing_instructions_8364",
+                "washing_instructions_7106",
+                "washing_instructions_7001",
+                "washing_instructions_7000",
+                "washing_instructions_6999",
+                "washing_instructions_6998",
+                "washing_instructions_6997",
+                "washing_instructions_4111",
+                "washing_instructions_4110",
+                "washing_instructions_4109",
+                "washing_instructions_4108",
+                "washing_instructions_4107",
+                "washing_instructions_4106",
+                "washing_instructions_4105",
+                "washing_instructions_4103",
+                "washing_instructions_4102"
+              ]
+            },
+            {
+              "type": {
+                "label": "sport_technology",
+                "version": "1.0.0"
+              },
+              "values": [
+                "sport_technology_8363"
+              ]
+            }
+          ]
+        },
+        "simple": {
+          "optional_types": [
+            "metric.length"
+          ],
+          "mandatory_types": [
+            "size_codes",
+            "ean"
+          ],
+          "restricted_attributes": []
+        }
+      },
+      "current_version": "5"
+    },
+    {
+      "name": {
+        "de": "Kopfhörer",
+        "en": "Headphones"
+      },
+      "label": "headphones",
+      "tiers": {
+        "model": {
+          "optional_types": [],
+          "mandatory_types": [
+            "name",
+            "brand_code",
+            "size_group",
+            "target_age_groups",
+            "target_genders"
+          ],
+          "restricted_attributes": []
+        },
+        "config": {
+          "optional_types": [
+            "color_code.secondary",
+            "color_code.tertiary",
+            "number_of_articles_in_multipack",
+            "certificate",
+            "condition"
+          ],
+          "mandatory_types": [
+            "season_code",
+            "color_code.primary",
+            "description",
+            "media",
+            "supplier_color"
+          ],
+          "restricted_attributes": [
+            {
+              "type": {
+                "label": "condition",
+                "version": "1"
+              },
+              "values": [
+                "condition_8531",
+                "condition_8532"
+              ]
+            }
+          ]
+        },
+        "simple": {
+          "optional_types": [],
+          "mandatory_types": [
+            "size_codes",
+            "ean"
+          ],
+          "restricted_attributes": []
+        }
+      },
+      "current_version": "5"
+    },
+    {
+      "name": {
+        "de": "Schmuck",
+        "en": "Jewellery"
+      },
+      "label": "jewellery",
+      "tiers": {
+        "model": {
+          "optional_types": [],
+          "mandatory_types": [
+            "name",
+            "brand_code",
+            "size_group",
+            "target_age_groups",
+            "target_genders"
+          ],
+          "restricted_attributes": []
+        },
+        "config": {
+          "optional_types": [
+            "waterproof",
+            "fastening",
+            "occasion",
+            "pattern",
+            "color_code.secondary",
+            "color_code.tertiary",
+            "finish",
+            "material_jewelry_two",
+            "number_of_articles_in_multipack",
+            "certificate",
+            "condition"
+          ],
+          "mandatory_types": [
+            "season_code",
+            "color_code.primary",
+            "description",
+            "media",
+            "supplier_color"
+          ],
+          "restricted_attributes": [
+            {
+              "type": {
+                "label": "pattern",
+                "version": "1.0.0"
+              },
+              "values": [
+                "pattern_7282",
+                "pattern_7281",
+                "pattern_7280",
+                "pattern_7279",
+                "pattern_7278",
+                "pattern_7277",
+                "pattern_7276",
+                "pattern_7275",
+                "pattern_5322",
+                "pattern_4316",
+                "pattern_4315",
+                "pattern_4314",
+                "pattern_4313",
+                "pattern_4312",
+                "pattern_4311",
+                "pattern_4310"
+              ]
+            },
+            {
+              "type": {
+                "label": "condition",
+                "version": "1"
+              },
+              "values": [
+                "condition_8532",
+                "condition_8531"
+              ]
+            },
+            {
+              "type": {
+                "label": "material_jewelry_two",
+                "version": "1"
+              },
+              "values": [
+                "material_jewelry_two_8089",
+                "material_jewelry_two_8107",
+                "material_jewelry_two_8118",
+                "material_jewelry_two_8103",
+                "material_jewelry_two_8124",
+                "material_jewelry_two_8114",
+                "material_jewelry_two_8104",
+                "material_jewelry_two_8102",
+                "material_jewelry_two_8099",
+                "material_jewelry_two_8085",
+                "material_jewelry_two_8092",
+                "material_jewelry_two_8110",
+                "material_jewelry_two_8111",
+                "material_jewelry_two_8088",
+                "material_jewelry_two_8123",
+                "material_jewelry_two_8115",
+                "material_jewelry_two_8094",
+                "material_jewelry_two_8106",
+                "material_jewelry_two_8108",
+                "material_jewelry_two_8109",
+                "material_jewelry_two_8084",
+                "material_jewelry_two_8090",
+                "material_jewelry_two_8096",
+                "material_jewelry_two_8105",
+                "material_jewelry_two_8095",
+                "material_jewelry_two_8091",
+                "material_jewelry_two_8117",
+                "material_jewelry_two_8112",
+                "material_jewelry_two_8093",
+                "material_jewelry_two_8100",
+                "material_jewelry_two_8120",
+                "material_jewelry_two_8121",
+                "material_jewelry_two_8116",
+                "material_jewelry_two_8086",
+                "material_jewelry_two_8119",
+                "material_jewelry_two_8113",
+                "material_jewelry_two_8097",
+                "material_jewelry_two_8087",
+                "material_jewelry_two_8101",
+                "material_jewelry_two_8122",
+                "material_jewelry_two_8098"
+              ]
+            },
+            {
+              "type": {
+                "label": "fastening",
+                "version": "1.0.0"
+              },
+              "values": [
+                "fastening_4321",
+                "fastening_8415",
+                "fastening_8412",
+                "fastening_8421",
+                "fastening_8411",
+                "fastening_8422",
+                "fastening_8419",
+                "fastening_8475",
+                "fastening_8478",
+                "fastening_8485",
+                "fastening_8472",
+                "fastening_8473",
+                "fastening_8477",
+                "fastening_8474",
+                "fastening_8470",
+                "fastening_8469",
+                "fastening_8484",
+                "fastening_8482",
+                "fastening_8481",
+                "fastening_8483",
+                "fastening_4317",
+                "fastening_8410",
+                "fastening_8471",
+                "fastening_8476"
+              ]
+            },
+            {
+              "type": {
+                "label": "finish",
+                "version": "1"
+              },
+              "values": [
+                "finish_8074",
+                "finish_8073",
+                "finish_8072",
+                "finish_8071",
+                "finish_8070",
+                "finish_8069",
+                "finish_8068",
+                "finish_8067",
+                "finish_8066",
+                "finish_8065",
+                "finish_8064",
+                "finish_8063",
+                "finish_7942"
+              ]
+            },
+            {
+              "type": {
+                "label": "waterproof",
+                "version": "1.0.0"
+              },
+              "values": [
+                "waterproof_8362",
+                "waterproof_8361",
+                "waterproof_8360",
+                "waterproof_7828",
+                "waterproof_7827",
+                "waterproof_7826",
+                "waterproof_7825",
+                "waterproof_210",
+                "waterproof_209"
+              ]
+            },
+            {
+              "type": {
+                "label": "occasion",
+                "version": "1.0.0"
+              },
+              "values": [
+                "occasion_7869",
+                "occasion_7232",
+                "occasion_7231",
+                "occasion_7230",
+                "occasion_7228",
+                "occasion_7227"
+              ]
+            }
+          ]
+        },
+        "simple": {
+          "optional_types": [
+            "metric.band_length",
+            "metric.length",
+            "metric.metric_diameter",
+            "metric.stone_size",
+            "metric.width_breite",
+            "metric.metric_width_breite"
+          ],
+          "mandatory_types": [
+            "size_codes",
+            "ean"
+          ],
+          "restricted_attributes": []
+        }
+      },
+      "current_version": "5"
+    },
+    {
+      "name": {
+        "de": "Schlüsselanhänger",
+        "en": "Keychain"
+      },
+      "label": "keychain",
+      "tiers": {
+        "model": {
+          "optional_types": [],
+          "mandatory_types": [
+            "name",
+            "brand_code",
+            "size_group",
+            "target_age_groups",
+            "target_genders"
+          ],
+          "restricted_attributes": []
+        },
+        "config": {
+          "optional_types": [
+            "color_code.secondary",
+            "color_code.tertiary",
+            "finish",
+            "number_of_articles_in_multipack",
+            "certificate",
+            "condition"
+          ],
+          "mandatory_types": [
+            "season_code",
+            "color_code.primary",
+            "description",
+            "media",
+            "supplier_color"
+          ],
+          "restricted_attributes": [
+            {
+              "type": {
+                "label": "condition",
+                "version": "1"
+              },
+              "values": [
+                "condition_8531",
+                "condition_8532"
+              ]
+            },
+            {
+              "type": {
+                "label": "finish",
+                "version": "1"
+              },
+              "values": [
+                "finish_8068",
+                "finish_8071",
+                "finish_7942",
+                "finish_8073",
+                "finish_8070",
+                "finish_8064",
+                "finish_8063",
+                "finish_8066",
+                "finish_8072",
+                "finish_8069",
+                "finish_8065",
+                "finish_8074",
+                "finish_8067"
+              ]
+            }
+          ]
+        },
+        "simple": {
+          "optional_types": [
+            "metric.length"
+          ],
+          "mandatory_types": [
+            "size_codes",
+            "ean"
+          ],
+          "restricted_attributes": []
+        }
+      },
+      "current_version": "5"
+    },
+    {
+      "name": {
+        "de": "Einteiler Unterwäsche",
+        "en": "One-piece underwear"
+      },
+      "label": "one_piece_underwear",
+      "tiers": {
+        "model": {
+          "optional_types": [
+            "assortment_type"
+          ],
+          "mandatory_types": [
+            "name",
+            "brand_code",
+            "size_group",
+            "target_age_groups",
+            "target_genders"
+          ],
+          "restricted_attributes": [
+            {
+              "type": {
+                "label": "assortment_type",
+                "version": "1.0.0"
+              },
+              "values": [
+                "assortment_type_7314",
+                "assortment_type_7311",
+                "assortment_type_7313",
+                "assortment_type_7841",
+                "assortment_type_7312"
+              ]
+            }
+          ]
+        },
+        "config": {
+          "optional_types": [
+            "size_fits",
+            "fabric_definition",
+            "washing_instructions",
+            "neckline",
+            "shirt_collar_type",
+            "color_code.secondary",
+            "color_code.tertiary",
+            "number_of_articles_in_multipack",
+            "certificate"
+          ],
+          "mandatory_types": [
+            "season_code",
+            "color_code.primary",
+            "description",
+            "material.upper_material_clothing",
+            "media",
+            "supplier_color"
+          ],
+          "restricted_attributes": [
+            {
+              "type": {
+                "label": "fabric_definition",
+                "version": "1.0.0"
+              },
+              "values": [
+                "fabric_definition_7202",
+                "fabric_definition_7201"
+              ]
+            },
+            {
+              "type": {
+                "label": "shirt_collar_type",
+                "version": "1.0.0"
+              },
+              "values": [
+                "shirt_collar_type_7301",
+                "shirt_collar_type_4304",
+                "shirt_collar_type_7305",
+                "shirt_collar_type_7306",
+                "shirt_collar_type_4301",
+                "shirt_collar_type_4299",
+                "shirt_collar_type_4332",
+                "shirt_collar_type_7310",
+                "shirt_collar_type_7297",
+                "shirt_collar_type_4298",
+                "shirt_collar_type_7304",
+                "shirt_collar_type_7299",
+                "shirt_collar_type_7302",
+                "shirt_collar_type_7298",
+                "shirt_collar_type_4333",
+                "shirt_collar_type_7309",
+                "shirt_collar_type_4300"
+              ]
+            },
+            {
+              "type": {
+                "label": "size_fits",
+                "version": "1.0.0"
+              },
+              "values": [
+                "size_fits_150",
+                "size_fits_149"
+              ]
+            },
+            {
+              "type": {
+                "label": "neckline",
+                "version": "1.0.0"
+              },
+              "values": [
+                "neckline_7239",
+                "neckline_7242",
+                "neckline_7247",
+                "neckline_7244",
+                "neckline_7249",
+                "neckline_7246",
+                "neckline_7248",
+                "neckline_7245",
+                "neckline_7250",
+                "neckline_7241",
+                "neckline_7240",
+                "neckline_7243"
+              ]
+            },
+            {
+              "type": {
+                "label": "washing_instructions",
+                "version": "1.0.0"
+              },
+              "values": [
+                "washing_instructions_4108",
+                "washing_instructions_7106",
+                "washing_instructions_4103",
+                "washing_instructions_6998",
+                "washing_instructions_7000",
+                "washing_instructions_4102",
+                "washing_instructions_4111",
+                "washing_instructions_4109",
+                "washing_instructions_7001",
+                "washing_instructions_6999",
+                "washing_instructions_4110",
+                "washing_instructions_8364",
+                "washing_instructions_4106",
+                "washing_instructions_6997",
+                "washing_instructions_4107"
+              ]
+            }
+          ]
+        },
+        "simple": {
+          "optional_types": [],
+          "mandatory_types": [
+            "size_codes",
+            "ean"
+          ],
+          "restricted_attributes": []
+        }
+      },
+      "current_version": "5"
+    },
+    {
+      "name": {
+        "de": "Sonstiges",
+        "en": "Other Accessoires"
+      },
+      "label": "other_accessoires",
+      "tiers": {
+        "model": {
+          "optional_types": [],
+          "mandatory_types": [
+            "name",
+            "brand_code",
+            "size_group",
+            "target_age_groups",
+            "target_genders"
+          ],
+          "restricted_attributes": []
+        },
+        "config": {
+          "optional_types": [
+            "fabric_definition",
+            "washing_instructions",
+            "home_area",
+            "sport_type",
+            "upper_material_bags",
+            "pattern",
+            "color_code.secondary",
+            "color_code.tertiary",
+            "material.futter_clothing",
+            "material.filling",
+            "number_of_articles_in_multipack",
+            "certificate",
+            "condition"
+          ],
+          "mandatory_types": [
+            "season_code",
+            "color_code.primary",
+            "description",
+            "material.upper_material_clothing",
+            "media",
+            "supplier_color"
+          ],
+          "restricted_attributes": [
+            {
+              "type": {
+                "label": "pattern",
+                "version": "1.0.0"
+              },
+              "values": [
+                "pattern_4316",
+                "pattern_7276",
+                "pattern_4315",
+                "pattern_7281",
+                "pattern_7275",
+                "pattern_7280",
+                "pattern_7279",
+                "pattern_7277",
+                "pattern_4314",
+                "pattern_7282",
+                "pattern_4313",
+                "pattern_4311",
+                "pattern_7278",
+                "pattern_5322",
+                "pattern_4310",
+                "pattern_4312"
+              ]
+            },
+            {
+              "type": {
+                "label": "condition",
+                "version": "1"
+              },
+              "values": [
+                "condition_8531",
+                "condition_8532"
+              ]
+            },
+            {
+              "type": {
+                "label": "fabric_definition",
+                "version": "1.0.0"
+              },
+              "values": [
+                "fabric_definition_7202",
+                "fabric_definition_7201"
+              ]
+            },
+            {
+              "type": {
+                "label": "upper_material_bags",
+                "version": "1.0.0"
+              },
+              "values": [
+                "upper_material_bags_5282",
+                "upper_material_bags_8220",
+                "upper_material_bags_4248",
+                "upper_material_bags_6213",
+                "upper_material_bags_6981",
+                "upper_material_bags_8210",
+                "upper_material_bags_4250",
+                "upper_material_bags_4254",
+                "upper_material_bags_6214",
+                "upper_material_bags_6265",
+                "upper_material_bags_8215",
+                "upper_material_bags_8212",
+                "upper_material_bags_8213",
+                "upper_material_bags_6263",
+                "upper_material_bags_8209",
+                "upper_material_bags_5284",
+                "upper_material_bags_4252",
+                "upper_material_bags_5283",
+                "upper_material_bags_4251",
+                "upper_material_bags_8214",
+                "upper_material_bags_4249",
+                "upper_material_bags_8216",
+                "upper_material_bags_5281",
+                "upper_material_bags_4253",
+                "upper_material_bags_8219",
+                "upper_material_bags_8222",
+                "upper_material_bags_6980",
+                "upper_material_bags_8221",
+                "upper_material_bags_6264",
+                "upper_material_bags_8211",
+                "upper_material_bags_8217",
+                "upper_material_bags_6266",
+                "upper_material_bags_8218"
+              ]
+            },
+            {
+              "type": {
+                "label": "home_area",
+                "version": "1.0.0"
+              },
+              "values": [
+                "home_area_5158",
+                "home_area_6949",
+                "home_area_6950",
+                "home_area_5153"
+              ]
+            },
+            {
+              "type": {
+                "label": "sport_type",
+                "version": "1.0.0"
+              },
+              "values": [
+                "sport_type_3648",
+                "sport_type_8235",
+                "sport_type_3646",
+                "sport_type_3643",
+                "sport_type_8234",
+                "sport_type_4587",
+                "sport_type_4589",
+                "sport_type_3642",
+                "sport_type_4594",
+                "sport_type_4584",
+                "sport_type_6391",
+                "sport_type_4586",
+                "sport_type_4593",
+                "sport_type_3644",
+                "sport_type_3640",
+                "sport_type_3641",
+                "sport_type_3645",
+                "sport_type_6387",
+                "sport_type_3647",
+                "sport_type_7073",
+                "sport_type_4591",
+                "sport_type_3650",
+                "sport_type_4590",
+                "sport_type_3649"
+              ]
+            },
+            {
+              "type": {
+                "label": "washing_instructions",
+                "version": "1.0.0"
+              },
+              "values": [
+                "washing_instructions_8365",
+                "washing_instructions_8577",
+                "washing_instructions_4108",
+                "washing_instructions_7106",
+                "washing_instructions_4103",
+                "washing_instructions_6998",
+                "washing_instructions_7000",
+                "washing_instructions_4102",
+                "washing_instructions_4111",
+                "washing_instructions_4109",
+                "washing_instructions_7001",
+                "washing_instructions_6999",
+                "washing_instructions_4110",
+                "washing_instructions_8364",
+                "washing_instructions_4106",
+                "washing_instructions_8576",
+                "washing_instructions_6997",
+                "washing_instructions_4107"
+              ]
+            }
+          ]
+        },
+        "simple": {
+          "optional_types": [
+            "metric.height",
+            "metric.length",
+            "metric.width"
+          ],
+          "mandatory_types": [
+            "size_codes",
+            "ean"
+          ],
+          "restricted_attributes": []
+        }
+      },
+      "current_version": "5"
+    },
+    {
+      "name": {
+        "de": "Schals/Tücher",
+        "en": "Scarf"
+      },
+      "label": "scarf",
+      "tiers": {
+        "model": {
+          "optional_types": [
+            "assortment_type"
+          ],
+          "mandatory_types": [
+            "name",
+            "brand_code",
+            "size_group",
+            "target_age_groups",
+            "target_genders"
+          ],
+          "restricted_attributes": [
+            {
+              "type": {
+                "label": "assortment_type",
+                "version": "1.0.0"
+              },
+              "values": [
+                "assortment_type_7314",
+                "assortment_type_7313",
+                "assortment_type_7312",
+                "assortment_type_7311"
+              ]
+            }
+          ]
+        },
+        "config": {
+          "optional_types": [
+            "fabric_definition",
+            "skirt_details",
+            "washing_instructions",
+            "non_textile_but_animal_parts",
+            "sport_type",
+            "occasion",
+            "pattern",
+            "color_code.secondary",
+            "color_code.tertiary",
+            "material.upper_material_front",
+            "number_of_articles_in_multipack",
+            "certificate",
+            "condition"
+          ],
+          "mandatory_types": [
+            "season_code",
+            "color_code.primary",
+            "description",
+            "material.upper_material_clothing",
+            "media",
+            "supplier_color"
+          ],
+          "restricted_attributes": [
+            {
+              "type": {
+                "label": "pattern",
+                "version": "1.0.0"
+              },
+              "values": [
+                "pattern_7282",
+                "pattern_7281",
+                "pattern_7280",
+                "pattern_7279",
+                "pattern_7278",
+                "pattern_7277",
+                "pattern_7276",
+                "pattern_7275",
+                "pattern_5322",
+                "pattern_4316",
+                "pattern_4315",
+                "pattern_4314",
+                "pattern_4313",
+                "pattern_4312",
+                "pattern_4311",
+                "pattern_4310"
+              ]
+            },
+            {
+              "type": {
+                "label": "condition",
+                "version": "1"
+              },
+              "values": [
+                "condition_8532"
+              ]
+            },
+            {
+              "type": {
+                "label": "fabric_definition",
+                "version": "1.0.0"
+              },
+              "values": [
+                "fabric_definition_7202",
+                "fabric_definition_7201"
+              ]
+            },
+            {
+              "type": {
+                "label": "non_textile_but_animal_parts",
+                "version": "1.0.0"
+              },
+              "values": [
+                "non_textile_but_animal_parts_6967",
+                "non_textile_but_animal_parts_6966"
+              ]
+            },
+            {
+              "type": {
+                "label": "skirt_details",
+                "version": "1.0.0"
+              },
+              "values": [
+                "skirt_details_8182",
+                "skirt_details_8181",
+                "skirt_details_8180",
+                "skirt_details_8179",
+                "skirt_details_8178",
+                "skirt_details_7844",
+                "skirt_details_7843"
+              ]
+            },
+            {
+              "type": {
+                "label": "occasion",
+                "version": "1.0.0"
+              },
+              "values": [
+                "occasion_7869",
+                "occasion_7232",
+                "occasion_7231",
+                "occasion_7230",
+                "occasion_7228",
+                "occasion_7227"
+              ]
+            },
+            {
+              "type": {
+                "label": "sport_type",
+                "version": "1.0.0"
+              },
+              "values": [
+                "sport_type_8234",
+                "sport_type_6387",
+                "sport_type_4596",
+                "sport_type_4593",
+                "sport_type_4591",
+                "sport_type_4590",
+                "sport_type_4589",
+                "sport_type_4587",
+                "sport_type_4586",
+                "sport_type_3648",
+                "sport_type_3646",
+                "sport_type_3643",
+                "sport_type_3642",
+                "sport_type_3640"
+              ]
+            },
+            {
+              "type": {
+                "label": "washing_instructions",
+                "version": "1.0.0"
+              },
+              "values": [
+                "washing_instructions_8365",
+                "washing_instructions_8364",
+                "washing_instructions_7106",
+                "washing_instructions_7001",
+                "washing_instructions_7000",
+                "washing_instructions_6999",
+                "washing_instructions_6998",
+                "washing_instructions_6997",
+                "washing_instructions_4111",
+                "washing_instructions_4110",
+                "washing_instructions_4109",
+                "washing_instructions_4108",
+                "washing_instructions_4107",
+                "washing_instructions_4106",
+                "washing_instructions_4105",
+                "washing_instructions_4103",
+                "washing_instructions_4102"
+              ]
+            }
+          ]
+        },
+        "simple": {
+          "optional_types": [
+            "metric.length",
+            "metric.metric_diameter",
+            "metric.productmodel_length",
+            "metric.metric_width_breite"
+          ],
+          "mandatory_types": [
+            "size_codes",
+            "ean"
+          ],
+          "restricted_attributes": []
+        }
+      },
+      "current_version": "4"
+    },
+    {
+      "name": {
+        "de": "Strümpfe",
+        "en": "Stocking"
+      },
+      "label": "stocking",
+      "tiers": {
+        "model": {
+          "optional_types": [
+            "assortment_type"
+          ],
+          "mandatory_types": [
+            "name",
+            "brand_code",
+            "size_group",
+            "target_age_groups",
+            "target_genders"
+          ],
+          "restricted_attributes": [
+            {
+              "type": {
+                "label": "assortment_type",
+                "version": "1.0.0"
+              },
+              "values": [
+                "assortment_type_7314",
+                "assortment_type_7311",
+                "assortment_type_7313",
+                "assortment_type_7841",
+                "assortment_type_7312"
+              ]
+            }
+          ]
+        },
+        "config": {
+          "optional_types": [
+            "size_fits",
+            "fabric_definition",
+            "washing_instructions",
+            "upper_material",
+            "futter",
+            "non_textile_but_animal_parts",
+            "clothing_length",
+            "sport_type",
+            "breathable",
+            "decksohle",
+            "material_construction",
+            "occasion",
+            "pattern",
+            "color_code.secondary",
+            "color_code.tertiary",
+            "number_of_articles_in_multipack",
+            "certificate"
+          ],
+          "mandatory_types": [
+            "season_code",
+            "color_code.primary",
+            "description",
+            "material.upper_material_clothing",
+            "media",
+            "supplier_color"
+          ],
+          "restricted_attributes": [
+            {
+              "type": {
+                "label": "pattern",
+                "version": "1.0.0"
+              },
+              "values": [
+                "pattern_4316",
+                "pattern_7276",
+                "pattern_4315",
+                "pattern_7281",
+                "pattern_7275",
+                "pattern_7280",
+                "pattern_7279",
+                "pattern_7277",
+                "pattern_4314",
+                "pattern_7282",
+                "pattern_4313",
+                "pattern_4311",
+                "pattern_7278",
+                "pattern_5322",
+                "pattern_4310",
+                "pattern_4312"
+              ]
+            },
+            {
+              "type": {
+                "label": "futter",
+                "version": "1.0.0"
+              },
+              "values": [
+                "futter_469",
+                "futter_91"
+              ]
+            },
+            {
+              "type": {
+                "label": "upper_material",
+                "version": "1.0.0"
+              },
+              "values": [
+                "upper_material_69"
+              ]
+            },
+            {
+              "type": {
+                "label": "decksohle",
+                "version": "1.0.0"
+              },
+              "values": [
+                "decksohle_125"
+              ]
+            },
+            {
+              "type": {
+                "label": "material_construction",
+                "version": "1.0.0"
+              },
+              "values": [
+                "material_construction_7215",
+                "material_construction_8194",
+                "material_construction_7221",
+                "material_construction_7219",
+                "material_construction_7222",
+                "material_construction_7218",
+                "material_construction_7225",
+                "material_construction_7216",
+                "material_construction_7213",
+                "material_construction_7217",
+                "material_construction_7220",
+                "material_construction_7214",
+                "material_construction_7223",
+                "material_construction_7224",
+                "material_construction_7226"
+              ]
+            },
+            {
+              "type": {
+                "label": "fabric_definition",
+                "version": "1.0.0"
+              },
+              "values": [
+                "fabric_definition_7202",
+                "fabric_definition_7201"
+              ]
+            },
+            {
+              "type": {
+                "label": "clothing_length",
+                "version": "1.0.0"
+              },
+              "values": [
+                "clothing_length_7711",
+                "clothing_length_7714",
+                "clothing_length_7710",
+                "clothing_length_7715",
+                "clothing_length_7712"
+              ]
+            },
+            {
+              "type": {
+                "label": "non_textile_but_animal_parts",
+                "version": "1.0.0"
+              },
+              "values": [
+                "non_textile_but_animal_parts_6966",
+                "non_textile_but_animal_parts_6967"
+              ]
+            },
+            {
+              "type": {
+                "label": "size_fits",
+                "version": "1.0.0"
+              },
+              "values": [
+                "size_fits_150",
+                "size_fits_149"
+              ]
+            },
+            {
+              "type": {
+                "label": "occasion",
+                "version": "1.0.0"
+              },
+              "values": [
+                "occasion_7869",
+                "occasion_7230",
+                "occasion_7229",
+                "occasion_7227",
+                "occasion_7868",
+                "occasion_7231",
+                "occasion_7232"
+              ]
+            },
+            {
+              "type": {
+                "label": "sport_type",
+                "version": "1.0.0"
+              },
+              "values": [
+                "sport_type_3648",
+                "sport_type_8233",
+                "sport_type_3646",
+                "sport_type_3643",
+                "sport_type_4587",
+                "sport_type_4589",
+                "sport_type_3642",
+                "sport_type_4594",
+                "sport_type_4586",
+                "sport_type_4593",
+                "sport_type_3644",
+                "sport_type_3640",
+                "sport_type_3641",
+                "sport_type_3645",
+                "sport_type_6387",
+                "sport_type_3647",
+                "sport_type_7073",
+                "sport_type_4591",
+                "sport_type_3650",
+                "sport_type_4590",
+                "sport_type_3649"
+              ]
+            },
+            {
+              "type": {
+                "label": "breathable",
+                "version": "1.0.0"
+              },
+              "values": [
+                "breathable_233",
+                "breathable_234"
+              ]
+            },
+            {
+              "type": {
+                "label": "washing_instructions",
+                "version": "1.0.0"
+              },
+              "values": [
+                "washing_instructions_8365",
+                "washing_instructions_4108",
+                "washing_instructions_7106",
+                "washing_instructions_4103",
+                "washing_instructions_6998",
+                "washing_instructions_7000",
+                "washing_instructions_4102",
+                "washing_instructions_4111",
+                "washing_instructions_4109",
+                "washing_instructions_7001",
+                "washing_instructions_6999",
+                "washing_instructions_4110",
+                "washing_instructions_8364",
+                "washing_instructions_4106",
+                "washing_instructions_6997",
+                "washing_instructions_4107"
+              ]
+            }
+          ]
+        },
+        "simple": {
+          "optional_types": [],
+          "mandatory_types": [
+            "size_codes",
+            "ean"
+          ],
+          "restricted_attributes": []
+        }
+      },
+      "current_version": "5"
+    },
+    {
+      "name": {
+        "de": "Anzugaccessoires",
+        "en": "Suit accessoires"
+      },
+      "label": "suit_accessoires",
+      "tiers": {
+        "model": {
+          "optional_types": [],
+          "mandatory_types": [
+            "name",
+            "brand_code",
+            "size_group",
+            "target_age_groups",
+            "target_genders"
+          ],
+          "restricted_attributes": []
+        },
+        "config": {
+          "optional_types": [
+            "size_fits",
+            "washing_instructions",
+            "non_textile_but_animal_parts",
+            "occasion",
+            "pattern",
+            "color_code.secondary",
+            "color_code.tertiary",
+            "material.futter_clothing",
+            "number_of_articles_in_multipack",
+            "certificate",
+            "condition"
+          ],
+          "mandatory_types": [
+            "season_code",
+            "color_code.primary",
+            "description",
+            "material.upper_material_clothing",
+            "media",
+            "supplier_color"
+          ],
+          "restricted_attributes": [
+            {
+              "type": {
+                "label": "pattern",
+                "version": "1.0.0"
+              },
+              "values": [
+                "pattern_7282",
+                "pattern_7281",
+                "pattern_7280",
+                "pattern_7279",
+                "pattern_7278",
+                "pattern_7277",
+                "pattern_7276",
+                "pattern_7275",
+                "pattern_5322",
+                "pattern_4316",
+                "pattern_4315",
+                "pattern_4314",
+                "pattern_4313",
+                "pattern_4312",
+                "pattern_4311",
+                "pattern_4310"
+              ]
+            },
+            {
+              "type": {
+                "label": "condition",
+                "version": "1"
+              },
+              "values": [
+                "condition_8532",
+                "condition_8531"
+              ]
+            },
+            {
+              "type": {
+                "label": "non_textile_but_animal_parts",
+                "version": "1.0.0"
+              },
+              "values": [
+                "non_textile_but_animal_parts_6967",
+                "non_textile_but_animal_parts_6966"
+              ]
+            },
+            {
+              "type": {
+                "label": "size_fits",
+                "version": "1.0.0"
+              },
+              "values": [
+                "size_fits_149"
+              ]
+            },
+            {
+              "type": {
+                "label": "occasion",
+                "version": "1.0.0"
+              },
+              "values": [
+                "occasion_7869",
+                "occasion_7232",
+                "occasion_7231",
+                "occasion_7230",
+                "occasion_7228",
+                "occasion_7227"
+              ]
+            },
+            {
+              "type": {
+                "label": "washing_instructions",
+                "version": "1.0.0"
+              },
+              "values": [
+                "washing_instructions_8365",
+                "washing_instructions_8364",
+                "washing_instructions_7106",
+                "washing_instructions_7001",
+                "washing_instructions_7000",
+                "washing_instructions_6999",
+                "washing_instructions_6998",
+                "washing_instructions_6997",
+                "washing_instructions_4111",
+                "washing_instructions_4110",
+                "washing_instructions_4109",
+                "washing_instructions_4108",
+                "washing_instructions_4107",
+                "washing_instructions_4106",
+                "washing_instructions_4105",
+                "washing_instructions_4103",
+                "washing_instructions_4102"
+              ]
+            }
+          ]
+        },
+        "simple": {
+          "optional_types": [
+            "metric.length",
+            "metric.productmodel_length",
+            "metric.sleeve_length",
+            "metric.metric_width_breite"
+          ],
+          "mandatory_types": [
+            "size_codes",
+            "ean"
+          ],
+          "restricted_attributes": []
+        }
+      },
+      "current_version": "6"
+    },
+    {
+      "name": {
+        "de": "Spielzeug",
+        "en": "Toys"
+      },
+      "label": "toys",
+      "tiers": {
+        "model": {
+          "optional_types": [],
+          "mandatory_types": [
+            "name",
+            "brand_code",
+            "size_group",
+            "target_age_groups",
+            "target_genders"
+          ],
+          "restricted_attributes": []
+        },
+        "config": {
+          "optional_types": [
+            "description",
+            "washing_instructions",
+            "occasion",
+            "color_code.secondary",
+            "color_code.tertiary",
+            "name_suffix",
+            "material.filling",
+            "material.upper_material_clothing",
+            "specific_warnings_toys",
+            "number_of_articles_in_multipack",
+            "certificate",
+            "general_warnings_maximum",
+            "general_warnings_minimum",
+            "condition",
+            "maximum_weight",
+            "minimum_weight",
+            "material_toys"
+          ],
+          "mandatory_types": [
+            "season_code",
+            "color_code.primary",
+            "media",
+            "supplier_color"
+          ],
+          "restricted_attributes": [
+            {
+              "type": {
+                "label": "condition",
+                "version": "1"
+              },
+              "values": [
+                "condition_8532",
+                "condition_8531"
+              ]
+            },
+            {
+              "type": {
+                "label": "material_toys",
+                "version": "1"
+              },
+              "values": [
+                "material_toys_8590",
+                "material_toys_8594",
+                "material_toys_8595",
+                "material_toys_8598",
+                "material_toys_8605",
+                "material_toys_8607",
+                "material_toys_8619",
+                "material_toys_8621",
+                "material_toys_8592",
+                "material_toys_8601",
+                "material_toys_8602",
+                "material_toys_8612",
+                "material_toys_8616",
+                "material_toys_8622",
+                "material_toys_8603",
+                "material_toys_8615",
+                "material_toys_8593",
+                "material_toys_8620",
+                "material_toys_8606",
+                "material_toys_8613",
+                "material_toys_8617",
+                "material_toys_8596",
+                "material_toys_8589",
+                "material_toys_8600",
+                "material_toys_8609",
+                "material_toys_8614",
+                "material_toys_8588",
+                "material_toys_8604",
+                "material_toys_8599",
+                "material_toys_8608",
+                "material_toys_8610",
+                "material_toys_8618",
+                "material_toys_8611",
+                "material_toys_8597",
+                "material_toys_8591",
+                "material_toys_8587"
+              ]
+            },
+            {
+              "type": {
+                "label": "specific_warnings_toys",
+                "version": "1"
+              },
+              "values": [
+                "specific_warnings_toys_8346",
+                "specific_warnings_toys_8345",
+                "specific_warnings_toys_8344",
+                "specific_warnings_toys_8343",
+                "specific_warnings_toys_8342",
+                "specific_warnings_toys_8341",
+                "specific_warnings_toys_8340",
+                "specific_warnings_toys_8339",
+                "specific_warnings_toys_8338",
+                "specific_warnings_toys_8337",
+                "specific_warnings_toys_8336",
+                "specific_warnings_toys_8335",
+                "specific_warnings_toys_8334",
+                "specific_warnings_toys_8333",
+                "specific_warnings_toys_8332"
+              ]
+            },
+            {
+              "type": {
+                "label": "occasion",
+                "version": "1.0.0"
+              },
+              "values": [
+                "occasion_7869"
+              ]
+            },
+            {
+              "type": {
+                "label": "washing_instructions",
+                "version": "1.0.0"
+              },
+              "values": [
+                "washing_instructions_8577",
+                "washing_instructions_8576",
+                "washing_instructions_8365",
+                "washing_instructions_8364",
+                "washing_instructions_7106",
+                "washing_instructions_7001",
+                "washing_instructions_7000",
+                "washing_instructions_6999",
+                "washing_instructions_6998",
+                "washing_instructions_6997",
+                "washing_instructions_4111",
+                "washing_instructions_4110",
+                "washing_instructions_4109",
+                "washing_instructions_4108",
+                "washing_instructions_4107",
+                "washing_instructions_4106",
+                "washing_instructions_4103",
+                "washing_instructions_4102"
+              ]
+            }
+          ]
+        },
+        "simple": {
+          "optional_types": [
+            "metric.height",
+            "metric_circumference"
+          ],
+          "mandatory_types": [
+            "size_codes",
+            "ean"
+          ],
+          "restricted_attributes": []
+        }
+      },
+      "current_version": "5"
+    },
+    {
+      "name": {
+        "de": "Reisezubehör",
+        "en": "Travel equipment"
+      },
+      "label": "travel_equipment",
+      "tiers": {
+        "model": {
+          "optional_types": [],
+          "mandatory_types": [
+            "name",
+            "brand_code",
+            "size_group",
+            "target_age_groups",
+            "target_genders"
+          ],
+          "restricted_attributes": []
+        },
+        "config": {
+          "optional_types": [
+            "color_code.secondary",
+            "color_code.tertiary",
+            "number_of_articles_in_multipack",
+            "certificate",
+            "condition"
+          ],
+          "mandatory_types": [
+            "season_code",
+            "color_code.primary",
+            "description",
+            "media",
+            "supplier_color"
+          ],
+          "restricted_attributes": [
+            {
+              "type": {
+                "label": "condition",
+                "version": "1"
+              },
+              "values": [
+                "condition_8531",
+                "condition_8532"
+              ]
+            }
+          ]
+        },
+        "simple": {
+          "optional_types": [],
+          "mandatory_types": [
+            "size_codes",
+            "ean"
+          ],
+          "restricted_attributes": []
+        }
+      },
+      "current_version": "5"
+    },
+    {
+      "name": {
+        "de": "Regenschirm",
+        "en": "Umbrella"
+      },
+      "label": "umbrella",
+      "tiers": {
+        "model": {
+          "optional_types": [],
+          "mandatory_types": [
+            "name",
+            "brand_code",
+            "size_group",
+            "target_age_groups",
+            "target_genders"
+          ],
+          "restricted_attributes": []
+        },
+        "config": {
+          "optional_types": [
+            "umbrella_hold",
+            "umbrella_opening",
+            "color_code.secondary",
+            "color_code.tertiary",
+            "certificate",
+            "condition"
+          ],
+          "mandatory_types": [
+            "season_code",
+            "color_code.primary",
+            "description",
+            "material.upper_material_clothing",
+            "media",
+            "supplier_color"
+          ],
+          "restricted_attributes": [
+            {
+              "type": {
+                "label": "condition",
+                "version": "1"
+              },
+              "values": [
+                "condition_8532",
+                "condition_8531"
+              ]
+            },
+            {
+              "type": {
+                "label": "umbrella_hold",
+                "version": "1.0.0"
+              },
+              "values": [
+                "umbrella_hold_6307",
+                "umbrella_hold_6306",
+                "umbrella_hold_6305"
+              ]
+            },
+            {
+              "type": {
+                "label": "umbrella_opening",
+                "version": "1.0.0"
+              },
+              "values": [
+                "umbrella_opening_6310",
+                "umbrella_opening_6309",
+                "umbrella_opening_6308"
+              ]
+            }
+          ]
+        },
+        "simple": {
+          "optional_types": [],
+          "mandatory_types": [
+            "size_codes",
+            "ean"
+          ],
+          "restricted_attributes": []
+        }
+      },
+      "current_version": "4"
+    },
+    {
+      "name": {
+        "de": "Unterhosen",
+        "en": "Underpant"
+      },
+      "label": "underpant",
+      "tiers": {
+        "model": {
+          "optional_types": [
+            "assortment_type"
+          ],
+          "mandatory_types": [
+            "name",
+            "brand_code",
+            "size_group",
+            "target_age_groups",
+            "target_genders"
+          ],
+          "restricted_attributes": [
+            {
+              "type": {
+                "label": "assortment_type",
+                "version": "1.0.0"
+              },
+              "values": [
+                "assortment_type_7314",
+                "assortment_type_7311",
+                "assortment_type_7313",
+                "assortment_type_7312"
+              ]
+            }
+          ]
+        },
+        "config": {
+          "optional_types": [
+            "size_fits",
+            "fabric_definition",
+            "washing_instructions",
+            "non_textile_but_animal_parts",
+            "clothing_length",
+            "sport_type",
+            "breathable",
+            "waterproof",
+            "sport_pants_waistband",
+            "material_construction",
+            "fastening",
+            "trouser_rise",
+            "occasion",
+            "pattern",
+            "color_code.secondary",
+            "color_code.tertiary",
+            "material.futter_clothing",
+            "number_of_articles_in_multipack",
+            "certificate",
+            "shape",
+            "fit_taxonomy"
+          ],
+          "mandatory_types": [
+            "season_code",
+            "color_code.primary",
+            "description",
+            "material.upper_material_clothing",
+            "media",
+            "supplier_color"
+          ],
+          "restricted_attributes": [
+            {
+              "type": {
+                "label": "pattern",
+                "version": "1.0.0"
+              },
+              "values": [
+                "pattern_4316",
+                "pattern_7276",
+                "pattern_4315",
+                "pattern_7281",
+                "pattern_7275",
+                "pattern_7280",
+                "pattern_7279",
+                "pattern_7277",
+                "pattern_4314",
+                "pattern_7282",
+                "pattern_4313",
+                "pattern_4311",
+                "pattern_7278",
+                "pattern_5322",
+                "pattern_4310",
+                "pattern_4312"
+              ]
+            },
+            {
+              "type": {
+                "label": "material_construction",
+                "version": "1.0.0"
+              },
+              "values": [
+                "material_construction_7215",
+                "material_construction_7221",
+                "material_construction_7219",
+                "material_construction_7222",
+                "material_construction_8197",
+                "material_construction_7218",
+                "material_construction_7225",
+                "material_construction_8198",
+                "material_construction_7216",
+                "material_construction_7213",
+                "material_construction_7217",
+                "material_construction_7220",
+                "material_construction_7214",
+                "material_construction_7223",
+                "material_construction_7226"
+              ]
+            },
+            {
+              "type": {
+                "label": "fabric_definition",
+                "version": "1.0.0"
+              },
+              "values": [
+                "fabric_definition_7202",
+                "fabric_definition_7201"
+              ]
+            },
+            {
+              "type": {
+                "label": "fastening",
+                "version": "1.0.0"
+              },
+              "values": [
+                "fastening_8424",
+                "fastening_8425",
+                "fastening_8423"
+              ]
+            },
+            {
+              "type": {
+                "label": "shape",
+                "version": "1"
+              },
+              "values": [
+                "shape_8510",
+                "shape_8509"
+              ]
+            },
+            {
+              "type": {
+                "label": "clothing_length",
+                "version": "1.0.0"
+              },
+              "values": [
+                "clothing_length_7272",
+                "clothing_length_151",
+                "clothing_length_7274",
+                "clothing_length_7267"
+              ]
+            },
+            {
+              "type": {
+                "label": "fit_taxonomy",
+                "version": "1"
+              },
+              "values": [
+                "fit_taxonomy_8521",
+                "fit_taxonomy_8522",
+                "fit_taxonomy_8520"
+              ]
+            },
+            {
+              "type": {
+                "label": "non_textile_but_animal_parts",
+                "version": "1.0.0"
+              },
+              "values": [
+                "non_textile_but_animal_parts_6966",
+                "non_textile_but_animal_parts_6967"
+              ]
+            },
+            {
+              "type": {
+                "label": "sport_pants_waistband",
+                "version": "1.0.0"
+              },
+              "values": [
+                "sport_pants_waistband_4989",
+                "sport_pants_waistband_4992",
+                "sport_pants_waistband_4988"
+              ]
+            },
+            {
+              "type": {
+                "label": "trouser_rise",
+                "version": "1.0.0"
+              },
+              "values": [
+                "trouser_rise_155",
+                "trouser_rise_156",
+                "trouser_rise_154"
+              ]
+            },
+            {
+              "type": {
+                "label": "waterproof",
+                "version": "1.0.0"
+              },
+              "values": [
+                "waterproof_209"
+              ]
+            },
+            {
+              "type": {
+                "label": "size_fits",
+                "version": "1.0.0"
+              },
+              "values": [
+                "size_fits_150",
+                "size_fits_149"
+              ]
+            },
+            {
+              "type": {
+                "label": "occasion",
+                "version": "1.0.0"
+              },
+              "values": [
+                "occasion_7869",
+                "occasion_7230",
+                "occasion_7229",
+                "occasion_7227",
+                "occasion_7868",
+                "occasion_7231",
+                "occasion_7232"
+              ]
+            },
+            {
+              "type": {
+                "label": "sport_type",
+                "version": "1.0.0"
+              },
+              "values": [
+                "sport_type_3648",
+                "sport_type_8235",
+                "sport_type_8233",
+                "sport_type_3646",
+                "sport_type_3643",
+                "sport_type_8234",
+                "sport_type_4587",
+                "sport_type_4589",
+                "sport_type_3642",
+                "sport_type_4594",
+                "sport_type_4584",
+                "sport_type_6391",
+                "sport_type_4586",
+                "sport_type_4593",
+                "sport_type_3644",
+                "sport_type_3640",
+                "sport_type_3641",
+                "sport_type_3645",
+                "sport_type_3647",
+                "sport_type_4591",
+                "sport_type_3650",
+                "sport_type_4590",
+                "sport_type_3649"
+              ]
+            },
+            {
+              "type": {
+                "label": "breathable",
+                "version": "1.0.0"
+              },
+              "values": [
+                "breathable_233",
+                "breathable_234"
+              ]
+            },
+            {
+              "type": {
+                "label": "washing_instructions",
+                "version": "1.0.0"
+              },
+              "values": [
+                "washing_instructions_8365",
+                "washing_instructions_4108",
+                "washing_instructions_7106",
+                "washing_instructions_4105",
+                "washing_instructions_4103",
+                "washing_instructions_6998",
+                "washing_instructions_7000",
+                "washing_instructions_4102",
+                "washing_instructions_4111",
+                "washing_instructions_4109",
+                "washing_instructions_7001",
+                "washing_instructions_6999",
+                "washing_instructions_4110",
+                "washing_instructions_8364",
+                "washing_instructions_4106",
+                "washing_instructions_6997",
+                "washing_instructions_4107"
+              ]
+            }
+          ]
+        },
+        "simple": {
+          "optional_types": [
+            "metric.inner_leg_length",
+            "metric.model_height",
+            "metric.outer_leg_length"
+          ],
+          "mandatory_types": [
+            "size_codes",
+            "ean"
+          ],
+          "restricted_attributes": []
+        }
+      },
+      "current_version": "5"
+    },
+    {
+      "name": {
+        "de": "Mehrteiler Unterwäsche",
+        "en": "Underwear combination"
+      },
+      "label": "underwear_combination",
+      "tiers": {
+        "model": {
+          "optional_types": [
+            "assortment_type"
+          ],
+          "mandatory_types": [
+            "name",
+            "brand_code",
+            "size_group",
+            "target_age_groups",
+            "target_genders"
+          ],
+          "restricted_attributes": [
+            {
+              "type": {
+                "label": "assortment_type",
+                "version": "1.0.0"
+              },
+              "values": [
+                "assortment_type_7841",
+                "assortment_type_7314",
+                "assortment_type_7313",
+                "assortment_type_7312",
+                "assortment_type_7311"
+              ]
+            }
+          ]
+        },
+        "config": {
+          "optional_types": [
+            "washing_instructions",
+            "color_code.secondary",
+            "color_code.tertiary",
+            "number_of_articles_in_multipack",
+            "certificate"
+          ],
+          "mandatory_types": [
+            "season_code",
+            "color_code.primary",
+            "description",
+            "material.upper_material_clothing",
+            "media",
+            "supplier_color"
+          ],
+          "restricted_attributes": [
+            {
+              "type": {
+                "label": "washing_instructions",
+                "version": "1.0.0"
+              },
+              "values": [
+                "washing_instructions_8365",
+                "washing_instructions_8364",
+                "washing_instructions_7106",
+                "washing_instructions_7001",
+                "washing_instructions_7000",
+                "washing_instructions_6999",
+                "washing_instructions_6998",
+                "washing_instructions_6997",
+                "washing_instructions_4111",
+                "washing_instructions_4110",
+                "washing_instructions_4109",
+                "washing_instructions_4108",
+                "washing_instructions_4107",
+                "washing_instructions_4106",
+                "washing_instructions_4103",
+                "washing_instructions_4102"
+              ]
+            }
+          ]
+        },
+        "simple": {
+          "optional_types": [],
+          "mandatory_types": [
+            "size_codes",
+            "ean"
+          ],
+          "restricted_attributes": []
+        }
+      },
+      "current_version": "5"
+    },
+    {
+      "name": {
+        "de": "Portemonnaies",
+        "en": "Wallet"
+      },
+      "label": "wallet",
+      "tiers": {
+        "model": {
+          "optional_types": [],
+          "mandatory_types": [
+            "name",
+            "brand_code",
+            "size_group",
+            "target_age_groups",
+            "target_genders"
+          ],
+          "restricted_attributes": []
+        },
+        "config": {
+          "optional_types": [
+            "upper_material_bags",
+            "fastening",
+            "occasion",
+            "pattern",
+            "futter_bags",
+            "color_code.secondary",
+            "color_code.tertiary",
+            "certificate",
+            "condition",
+            "compartments"
+          ],
+          "mandatory_types": [
+            "season_code",
+            "color_code.primary",
+            "description",
+            "media",
+            "supplier_color"
+          ],
+          "restricted_attributes": [
+            {
+              "type": {
+                "label": "pattern",
+                "version": "1.0.0"
+              },
+              "values": [
+                "pattern_7282",
+                "pattern_7281",
+                "pattern_7280",
+                "pattern_7279",
+                "pattern_7278",
+                "pattern_7277",
+                "pattern_7276",
+                "pattern_7275",
+                "pattern_5322",
+                "pattern_4316",
+                "pattern_4315",
+                "pattern_4314",
+                "pattern_4313",
+                "pattern_4312",
+                "pattern_4311",
+                "pattern_4310"
+              ]
+            },
+            {
+              "type": {
+                "label": "condition",
+                "version": "1"
+              },
+              "values": [
+                "condition_8532",
+                "condition_8531"
+              ]
+            },
+            {
+              "type": {
+                "label": "compartments",
+                "version": "1"
+              },
+              "values": [
+                "compartments_07"
+              ]
+            },
+            {
+              "type": {
+                "label": "futter_bags",
+                "version": "1.0.0"
+              },
+              "values": [
+                "futter_bags_8224",
+                "futter_bags_8223",
+                "futter_bags_6261",
+                "futter_bags_6260",
+                "futter_bags_6259",
+                "futter_bags_6212",
+                "futter_bags_6211",
+                "futter_bags_5280",
+                "futter_bags_5279",
+                "futter_bags_5278",
+                "futter_bags_5277",
+                "futter_bags_4261",
+                "futter_bags_4260",
+                "futter_bags_4259",
+                "futter_bags_4258",
+                "futter_bags_4257",
+                "futter_bags_4256",
+                "futter_bags_4255"
+              ]
+            },
+            {
+              "type": {
+                "label": "fastening",
+                "version": "1.0.0"
+              },
+              "values": [
+                "fastening_8468",
+                "fastening_8467",
+                "fastening_8416",
+                "fastening_8415",
+                "fastening_8414",
+                "fastening_8413",
+                "fastening_8402",
+                "fastening_4318"
+              ]
+            },
+            {
+              "type": {
+                "label": "upper_material_bags",
+                "version": "1.0.0"
+              },
+              "values": [
+                "upper_material_bags_8210",
+                "upper_material_bags_6980",
+                "upper_material_bags_8212",
+                "upper_material_bags_5281",
+                "upper_material_bags_6266",
+                "upper_material_bags_6213",
+                "upper_material_bags_4252",
+                "upper_material_bags_5283",
+                "upper_material_bags_4250",
+                "upper_material_bags_5284",
+                "upper_material_bags_6265",
+                "upper_material_bags_6214",
+                "upper_material_bags_8214",
+                "upper_material_bags_8216",
+                "upper_material_bags_8211",
+                "upper_material_bags_4249",
+                "upper_material_bags_4248",
+                "upper_material_bags_4253",
+                "upper_material_bags_8213",
+                "upper_material_bags_4254",
+                "upper_material_bags_8220",
+                "upper_material_bags_6264",
+                "upper_material_bags_5282",
+                "upper_material_bags_8215",
+                "upper_material_bags_6981",
+                "upper_material_bags_8218",
+                "upper_material_bags_6263",
+                "upper_material_bags_4251",
+                "upper_material_bags_8221"
+              ]
+            },
+            {
+              "type": {
+                "label": "occasion",
+                "version": "1.0.0"
+              },
+              "values": [
+                "occasion_7869",
+                "occasion_7232",
+                "occasion_7231",
+                "occasion_7230",
+                "occasion_7227"
+              ]
+            }
+          ]
+        },
+        "simple": {
+          "optional_types": [
+            "metric.height",
+            "metric.length",
+            "metric.width_breite",
+            "metric.width"
+          ],
+          "mandatory_types": [
+            "size_codes",
+            "ean"
+          ],
+          "restricted_attributes": []
+        }
+      },
+      "current_version": "5"
+    },
+    {
+      "name": {
+        "de": "Armbanduhren",
+        "en": "Watch"
+      },
+      "label": "watch",
+      "tiers": {
+        "model": {
+          "optional_types": [],
+          "mandatory_types": [
+            "name",
+            "brand_code",
+            "size_group",
+            "target_age_groups",
+            "target_genders"
+          ],
+          "restricted_attributes": []
+        },
+        "config": {
+          "optional_types": [
+            "watch_material_case",
+            "watch_clockwork",
+            "watch",
+            "watch_material_band",
+            "sport_type",
+            "waterproof",
+            "watch_display",
+            "fastening",
+            "pattern",
+            "color_code.secondary",
+            "color_code.tertiary",
+            "finish",
+            "number_of_articles_in_multipack",
+            "certificate",
+            "condition",
+            "metric.metric_diameter"
+          ],
+          "mandatory_types": [
+            "season_code",
+            "color_code.primary",
+            "description",
+            "media",
+            "supplier_color"
+          ],
+          "restricted_attributes": [
+            {
+              "type": {
+                "label": "pattern",
+                "version": "1.0.0"
+              },
+              "values": [
+                "pattern_7282",
+                "pattern_7281",
+                "pattern_7280",
+                "pattern_7279",
+                "pattern_7278",
+                "pattern_7277",
+                "pattern_7276",
+                "pattern_7275",
+                "pattern_5322",
+                "pattern_4316",
+                "pattern_4315",
+                "pattern_4314",
+                "pattern_4313",
+                "pattern_4312",
+                "pattern_4311",
+                "pattern_4310"
+              ]
+            },
+            {
+              "type": {
+                "label": "condition",
+                "version": "1"
+              },
+              "values": [
+                "condition_8532",
+                "condition_8531"
+              ]
+            },
+            {
+              "type": {
+                "label": "watch_material_band",
+                "version": "1.0.0"
+              },
+              "values": [
+                "watch_material_band_8143",
+                "watch_material_band_7055",
+                "watch_material_band_7056",
+                "watch_material_band_7053",
+                "watch_material_band_7060",
+                "watch_material_band_8135",
+                "watch_material_band_8125",
+                "watch_material_band_8149",
+                "watch_material_band_8148",
+                "watch_material_band_8146",
+                "watch_material_band_8145",
+                "watch_material_band_8142",
+                "watch_material_band_8141",
+                "watch_material_band_8140",
+                "watch_material_band_8138",
+                "watch_material_band_8137",
+                "watch_material_band_8134",
+                "watch_material_band_8133",
+                "watch_material_band_8131",
+                "watch_material_band_8130",
+                "watch_material_band_8129",
+                "watch_material_band_8128",
+                "watch_material_band_8127",
+                "watch_material_band_8136",
+                "watch_material_band_8139",
+                "watch_material_band_8126",
+                "watch_material_band_8132",
+                "watch_material_band_8177",
+                "watch_material_band_8147",
+                "watch_material_band_7050",
+                "watch_material_band_7051",
+                "watch_material_band_7054",
+                "watch_material_band_7052",
+                "watch_material_band_7058",
+                "watch_material_band_7061",
+                "watch_material_band_7057",
+                "watch_material_band_7059",
+                "watch_material_band_8144"
+              ]
+            },
+            {
+              "type": {
+                "label": "fastening",
+                "version": "1.0.0"
+              },
+              "values": [
+                "fastening_8472",
+                "fastening_8412",
+                "fastening_8411",
+                "fastening_8410",
+                "fastening_8409"
+              ]
+            },
+            {
+              "type": {
+                "label": "finish",
+                "version": "1"
+              },
+              "values": [
+                "finish_8074",
+                "finish_8073",
+                "finish_8072",
+                "finish_8071",
+                "finish_8070",
+                "finish_8069",
+                "finish_8068",
+                "finish_8067",
+                "finish_8066",
+                "finish_8065",
+                "finish_8064",
+                "finish_8063",
+                "finish_7942"
+              ]
+            },
+            {
+              "type": {
+                "label": "watch_clockwork",
+                "version": "1.0.0"
+              },
+              "values": [
+                "watch_clockwork_7044",
+                "watch_clockwork_7043",
+                "watch_clockwork_7042"
+              ]
+            },
+            {
+              "type": {
+                "label": "watch",
+                "version": "1.0.0"
+              },
+              "values": [
+                "watch_7840",
+                "watch_7839",
+                "watch_7838",
+                "watch_7837",
+                "watch_7836",
+                "watch_7835",
+                "watch_7834",
+                "watch_7833",
+                "watch_7832",
+                "watch_7831",
+                "watch_7830",
+                "watch_7829",
+                "watch_7049",
+                "watch_7048",
+                "watch_307",
+                "watch_306",
+                "watch_305"
+              ]
+            },
+            {
+              "type": {
+                "label": "watch_display",
+                "version": "1.0.0"
+              },
+              "values": [
+                "watch_display_7047",
+                "watch_display_7046",
+                "watch_display_7045"
+              ]
+            },
+            {
+              "type": {
+                "label": "waterproof",
+                "version": "1.0.0"
+              },
+              "values": [
+                "waterproof_8362",
+                "waterproof_8361",
+                "waterproof_8360",
+                "waterproof_7828",
+                "waterproof_7827",
+                "waterproof_7826",
+                "waterproof_7825",
+                "waterproof_210",
+                "waterproof_209"
+              ]
+            },
+            {
+              "type": {
+                "label": "watch_material_case",
+                "version": "1.0.0"
+              },
+              "values": [
+                "watch_material_case_7063",
+                "watch_material_case_7068",
+                "watch_material_case_7065",
+                "watch_material_case_7067",
+                "watch_material_case_8150",
+                "watch_material_case_7066",
+                "watch_material_case_8159",
+                "watch_material_case_8171",
+                "watch_material_case_8173",
+                "watch_material_case_8170",
+                "watch_material_case_8168",
+                "watch_material_case_8164",
+                "watch_material_case_8163",
+                "watch_material_case_8162",
+                "watch_material_case_8161",
+                "watch_material_case_8158",
+                "watch_material_case_8156",
+                "watch_material_case_8155",
+                "watch_material_case_8154",
+                "watch_material_case_8151",
+                "watch_material_case_8157",
+                "watch_material_case_8165",
+                "watch_material_case_8153",
+                "watch_material_case_8172",
+                "watch_material_case_8167",
+                "watch_material_case_8169",
+                "watch_material_case_8160",
+                "watch_material_case_8152",
+                "watch_material_case_8166",
+                "watch_material_case_7064",
+                "watch_material_case_7062",
+                "watch_material_case_8174"
+              ]
+            },
+            {
+              "type": {
+                "label": "sport_type",
+                "version": "1.0.0"
+              },
+              "values": [
+                "sport_type_3640",
+                "sport_type_3649",
+                "sport_type_4590",
+                "sport_type_4594",
+                "sport_type_3648",
+                "sport_type_4584",
+                "sport_type_3647",
+                "sport_type_3643",
+                "sport_type_6387",
+                "sport_type_3642",
+                "sport_type_3650",
+                "sport_type_7073",
+                "sport_type_3645",
+                "sport_type_6391",
+                "sport_type_3644",
+                "sport_type_3641",
+                "sport_type_4589",
+                "sport_type_4591",
+                "sport_type_4586",
+                "sport_type_3646",
+                "sport_type_4593",
+                "sport_type_4587"
+              ]
+            }
+          ]
+        },
+        "simple": {
+          "optional_types": [
+            "metric.band_length",
+            "metric.case_height",
+            "metric.metric_diameter",
+            "metric.metric_width_breite"
+          ],
+          "mandatory_types": [
+            "size_codes",
+            "ean"
+          ],
+          "restricted_attributes": []
+        }
+      },
+      "current_version": "5"
+    }
+  ]
+}

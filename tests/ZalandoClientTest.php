@@ -28,6 +28,16 @@ class ZalandoClientTest extends TestCase
         $this->assertNotNull($orderLinesTopLevel);
     }
 
+    public function testGetProductOutlines()
+    {
+        $client = $this->createMockedClient('zalando-outlines.json');
+
+        $outlinesResponse = $client->getProductOutlines();
+
+        $this->assertNotNull($outlinesResponse);
+    }
+
+
     private function createMockedClient(string $jsonFileName): ZalandoClient
     {
         $json = file_get_contents(__DIR__ . "/$jsonFileName");

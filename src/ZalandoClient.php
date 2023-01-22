@@ -6,6 +6,7 @@ use Baumeister\ZalandoClient\Model\OrderItem;
 use Baumeister\ZalandoClient\Model\OrderLine;
 use Baumeister\ZalandoClient\Model\OrderLinesTopLevel;
 use Baumeister\ZalandoClient\Model\OrdersTopLevel;
+use Baumeister\ZalandoClient\Model\OutlinesPagedResponse;
 use Baumeister\ZalandoClient\Model\ProductPrice;
 use Baumeister\ZalandoClient\Model\ResourceObject;
 use Baumeister\ZalandoClient\Model\StockUpdatePerSalesChannel;
@@ -20,7 +21,7 @@ use JsonMapper_Exception;
 class ZalandoClient
 {
     private Client $guzzleClient;
-    private string $accessToken;
+    private string $accessToken = '';
     private string $clientId;
     private string $clientSecret;
     private JsonMapper $jsonMapper;
@@ -116,6 +117,22 @@ class ZalandoClient
         $data = json_decode($response->getBody()->getContents());
         return $this->jsonMapper->map($data, new OrderLinesTopLevel());
     }
+
+    /**
+     * @throws GuzzleException
+     * @throws JsonMapper_Exception
+     */
+    public function getProductOutlines(): OutlinesPagedResponse {
+        $response = $this->guzzleClient->get("/merchants/$this->merchantId/outlines", [
+            'headers' => [
+                'Authorization' => "Bearer $this->accessToken",
+                'Accept' => 'application/vnd.api+json'
+            ],
+        ]);
+        $data = json_decode($response->getBody()->getContents());
+        return $this->jsonMapper->map($data, new OutlinesPagedResponse());
+    }
+
 
     /**
      * @throws GuzzleException
