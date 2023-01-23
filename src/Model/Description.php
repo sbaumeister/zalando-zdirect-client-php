@@ -2,7 +2,7 @@
 
 namespace Baumeister\ZalandoClient\Model;
 
-class OutlineName
+class Description
 {
     public string $de;
     public string $en;

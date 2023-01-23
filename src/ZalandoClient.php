@@ -2,6 +2,7 @@
 
 namespace Baumeister\ZalandoClient;
 
+use Baumeister\ZalandoClient\Model\AttributesPagedResponse;
 use Baumeister\ZalandoClient\Model\OrderItem;
 use Baumeister\ZalandoClient\Model\OrderLine;
 use Baumeister\ZalandoClient\Model\OrderLinesTopLevel;
@@ -11,6 +12,7 @@ use Baumeister\ZalandoClient\Model\ProductPrice;
 use Baumeister\ZalandoClient\Model\ResourceObject;
 use Baumeister\ZalandoClient\Model\StockUpdatePerSalesChannel;
 use Baumeister\ZalandoClient\Model\StockUpdatesRequest;
+use Baumeister\ZalandoClient\Model\TypeResponse;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\GuzzleException;
 use GuzzleHttp\HandlerStack;
@@ -133,6 +135,35 @@ class ZalandoClient
         return $this->jsonMapper->map($data, new OutlinesPagedResponse());
     }
 
+    /**
+     * @throws GuzzleException
+     * @throws JsonMapper_Exception
+     */
+    public function getAttributeType(string $type): TypeResponse {
+        $response = $this->guzzleClient->get("/merchants/$this->merchantId/attribute-types/$type", [
+            'headers' => [
+                'Authorization' => "Bearer $this->accessToken",
+                'Accept' => 'application/vnd.api+json'
+            ],
+        ]);
+        $data = json_decode($response->getBody()->getContents());
+        return $this->jsonMapper->map($data, new TypeResponse());
+    }
+
+    /**
+     * @throws GuzzleException
+     * @throws JsonMapper_Exception
+     */
+    public function getAttributeValues(string $type): AttributesPagedResponse {
+        $response = $this->guzzleClient->get("/merchants/$this->merchantId/attribute-types/$type/attributes", [
+            'headers' => [
+                'Authorization' => "Bearer $this->accessToken",
+                'Accept' => 'application/vnd.api+json'
+            ],
+        ]);
+        $data = json_decode($response->getBody()->getContents());
+        return $this->jsonMapper->map($data, new AttributesPagedResponse());
+    }
 
     /**
      * @throws GuzzleException

@@ -1,0 +1,22 @@
+{
+  "items": [
+    {
+      "label": "target_gender_male",
+      "name": {
+        "en": "target gender male"
+      },
+      "value": {
+        "string": "target_gender_male"
+      }
+    },
+    {
+      "label": "target_gender_female",
+      "name": {
+        "en": "target gender female"
+      },
+      "value": {
+        "string": "target_gender_female"
+      }
+    }
+  ]
+}

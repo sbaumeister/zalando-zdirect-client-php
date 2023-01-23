@@ -1,0 +1,25 @@
+{
+  "cardinality": "one",
+  "definition": {
+    "type": "LocalizedStringDefinition"
+  },
+  "label": "color_code",
+  "name": {
+    "en-gb": "color_code"
+  },
+  "type_variants": [
+    {
+      "label": "primary",
+      "name": {}
+    },
+    {
+      "label": "secondary",
+      "name": {}
+    },
+    {
+      "label": "tertiary",
+      "name": {}
+    }
+  ],
+  "usage": "reference_by_label"
+}

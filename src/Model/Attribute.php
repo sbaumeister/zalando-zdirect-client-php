@@ -2,10 +2,9 @@
 
 namespace Baumeister\ZalandoClient\Model;
 
-class Outline
+class Attribute
 {
     public string $label;
     public Name $name;
-    public Description $description;
-    public OutlineTiers $tiers;
+    public AttributeValue $value;
 }

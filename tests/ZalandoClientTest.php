@@ -14,27 +14,46 @@ class ZalandoClientTest extends TestCase
     {
         $client = $this->createMockedClient('zalando-orders.json');
 
-        $ordersTopLevel = $client->getOrders();
+        $response = $client->getOrders();
 
-        $this->assertNotNull($ordersTopLevel);
+        $this->assertNotNull($response);
     }
 
     public function testGetOrderLines()
     {
         $client = $this->createMockedClient('zalando-order-lines.json');
 
-        $orderLinesTopLevel = $client->getOrderLines('', '');
+        $response = $client->getOrderLines('', '');
 
-        $this->assertNotNull($orderLinesTopLevel);
+        $this->assertNotNull($response);
     }
 
     public function testGetProductOutlines()
     {
         $client = $this->createMockedClient('zalando-outlines.json');
 
-        $outlinesResponse = $client->getProductOutlines();
+        $response = $client->getProductOutlines();
 
-        $this->assertNotNull($outlinesResponse);
+        $this->assertNotNull($response);
+    }
+
+    public function testGetAttributeType()
+    {
+        $client = $this->createMockedClient('zalando-attribute-type.json');
+
+        $response = $client->getAttributeType('color_code');
+
+        $this->assertNotNull($response);
+    }
+
+    public function testGetAttributeValues()
+    {
+        $client = $this->createMockedClient('zalando-attribute-values.json');
+
+        $response = $client->getAttributeValues('target_genders');
+
+        var_dump($response);
+        $this->assertNotNull($response);
     }
 
 
