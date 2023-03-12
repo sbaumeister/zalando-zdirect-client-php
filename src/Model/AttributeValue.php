@@ -2,13 +2,14 @@
 
 namespace Baumeister\ZalandoClient\Model;
 
+use DateTime;
+
 class AttributeValue
 {
-    public bool $boolean;
-    public \DateTime $datetime;
-    public float $decimal;
-    public int $integer;
-    public string $string;
-    public LocalizedValue $localized;
-
+    public ?bool $boolean = null;
+    public ?DateTime $datetime = null;
+    public ?float $decimal = null;
+    public ?int $integer = null;
+    public ?string $string = null;
+    public ?LocalizedValue $localized = null;
 }

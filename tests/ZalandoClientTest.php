@@ -52,8 +52,9 @@ class ZalandoClientTest extends TestCase
 
         $response = $client->getAttributeValues('target_genders');
 
-        var_dump($response);
         $this->assertNotNull($response);
+        // Test default value initialization
+        $this->assertNull($response->items[0]->value->localized);
     }
 
 
