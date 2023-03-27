@@ -3,12 +3,14 @@
 namespace Baumeister\ZalandoClient;
 
 use Baumeister\ZalandoClient\Model\AttributesPagedResponse;
+use Baumeister\ZalandoClient\Model\LookUp;
 use Baumeister\ZalandoClient\Model\OrderItem;
 use Baumeister\ZalandoClient\Model\OrderLine;
 use Baumeister\ZalandoClient\Model\OrderLinesTopLevel;
 use Baumeister\ZalandoClient\Model\OrdersTopLevel;
 use Baumeister\ZalandoClient\Model\OutlinesPagedResponse;
 use Baumeister\ZalandoClient\Model\ProductPrice;
+use Baumeister\ZalandoClient\Model\ProductSubmission;
 use Baumeister\ZalandoClient\Model\ResourceObject;
 use Baumeister\ZalandoClient\Model\StockUpdatePerSalesChannel;
 use Baumeister\ZalandoClient\Model\StockUpdatesRequest;
@@ -100,6 +102,57 @@ class ZalandoClient
         ]);
         $data = json_decode($response->getBody()->getContents());
         return $this->jsonMapper->map($data, new OrdersTopLevel());
+    }
+
+    /**
+     * @throws GuzzleException
+     * @throws JsonMapper_Exception
+     */
+    public function getProductEans(string $ean): LookUp
+    {
+        $response = $this->guzzleClient->get("/products/identifiers/$ean", [
+            'headers' => [
+                'Authorization' => "Bearer $this->accessToken",
+            ]
+        ]);
+        $data = json_decode($response->getBody()->getContents());
+        return $this->jsonMapper->map($data, new LookUp());
+    }
+
+    /**
+     * @throws GuzzleException
+     */
+    public function putProductIdentifier(string $ean, string $productSku): mixed
+    {
+        // TODO: replace with real object
+        $body = json_encode(['merchant_product_simple_id' => $productSku], JSON_FORCE_OBJECT);
+        $response = $this->guzzleClient->put("/merchants/$this->merchantId/products/identifiers/$ean", [
+            'headers' => [
+                'Authorization' => "Bearer $this->accessToken",
+                'Content-Type' => 'application/json'
+            ],
+            'body' => $body
+        ]);
+        if ($response->getStatusCode() == 204) {
+            return true;
+        }
+        return false;
+    }
+
+    public function postProductSubmission(ProductSubmission $productSubmission): mixed
+    {
+        $body = json_encode($productSubmission);
+        $response = $this->guzzleClient->post("/merchants/$this->merchantId/product-submissions", [
+            'headers' => [
+                'Authorization' => "Bearer $this->accessToken",
+                'Content-Type' => 'application/json'
+            ],
+            'body' => $body
+        ]);
+        if ($response->getStatusCode() == 200) {
+            return true;
+        }
+        return false;
     }
 
     /**

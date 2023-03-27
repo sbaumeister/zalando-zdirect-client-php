@@ -57,6 +57,14 @@ class ZalandoClientTest extends TestCase
         $this->assertNull($response->items[0]->value->localized);
     }
 
+    public function testGetProductEans()
+    {
+        $client = $this->createMockedClient('zalando-product-eans.json');
+
+        $response = $client->getProductEans('4059506170270');
+
+        $this->assertNotNull($response);
+    }
 
     private function createMockedClient(string $jsonFileName): ZalandoClient
     {
