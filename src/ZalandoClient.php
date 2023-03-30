@@ -122,7 +122,7 @@ class ZalandoClient
     /**
      * @throws GuzzleException
      */
-    public function putProductIdentifier(string $ean, string $productSku): mixed
+    public function putProductIdentifier(string $ean, string $productSku): bool
     {
         // TODO: replace with real object
         $body = json_encode(['merchant_product_simple_id' => $productSku], JSON_FORCE_OBJECT);
@@ -139,7 +139,7 @@ class ZalandoClient
         return false;
     }
 
-    public function postProductSubmission(ProductSubmission $productSubmission): mixed
+    public function postProductSubmission(ProductSubmission $productSubmission): bool
     {
         $body = json_encode($productSubmission);
         $response = $this->guzzleClient->post("/merchants/$this->merchantId/product-submissions", [

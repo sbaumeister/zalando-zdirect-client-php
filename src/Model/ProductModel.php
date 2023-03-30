@@ -21,6 +21,9 @@ class ProductModel implements \JsonSerializable
         return $this;
     }
 
+    /**
+     * @param  ProductConfig[]  $product_configs
+     */
     public function setProductConfigs(array $product_configs): ProductModel
     {
         $this->product_configs = $product_configs;

@@ -21,6 +21,15 @@ class ProductConfig implements \JsonSerializable
         return $this;
     }
 
+    /**
+     * @param  ProductSimple[]  $product_simples
+     */
+    public function setProductSimples(array $product_simples): ProductConfig
+    {
+        $this->product_simples = $product_simples;
+        return $this;
+    }
+
     public function jsonSerialize(): array
     {
         return get_object_vars($this);
