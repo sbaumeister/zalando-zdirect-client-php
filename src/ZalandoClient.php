@@ -139,6 +139,9 @@ class ZalandoClient
         return false;
     }
 
+    /**
+     * @throws GuzzleException
+     */
     public function postProductSubmission(ProductSubmission $productSubmission): bool
     {
         $body = json_encode($productSubmission);
