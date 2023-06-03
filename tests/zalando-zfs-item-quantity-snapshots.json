@@ -1,0 +1,55 @@
+{
+  "item_quantity_snapshot": {
+    "item_quantities": [
+      {
+        "ean": "4260612848605",
+        "total_quantity": 807,
+        "quantities_by_state": {
+          "offerable": 797,
+          "non_offerable": 10
+        },
+        "quantities_by_location": [
+          {
+            "stock_location_id": "1e57b2b6-907b-4676-8766-339a1d596e59",
+            "quantities_by_state": {
+              "offerable": 0,
+              "non_offerable": 4
+            }
+          },
+          {
+            "stock_location_id": "32eff430-f835-44ce-947a-4a1fdce1c615",
+            "quantities_by_state": {
+              "offerable": 541,
+              "non_offerable": 1
+            }
+          },
+          {
+            "stock_location_id": "b6f6cf2b-5e63-4693-a658-99748b871d7e",
+            "quantities_by_state": {
+              "offerable": 256,
+              "non_offerable": 5
+            }
+          }
+        ]
+      },
+      {
+        "ean": "4260770470908",
+        "total_quantity": 5,
+        "quantities_by_state": {
+          "offerable": 0,
+          "non_offerable": 5
+        },
+        "quantities_by_location": [
+          {
+            "stock_location_id": "1e57b2b6-907b-4676-8766-339a1d596e59",
+            "quantities_by_state": {
+              "offerable": 0,
+              "non_offerable": 5
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "created": "2023-05-13T22:00:00Z"
+}

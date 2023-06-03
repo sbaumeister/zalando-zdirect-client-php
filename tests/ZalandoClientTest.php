@@ -37,6 +37,15 @@ class ZalandoClientTest extends TestCase
         $this->assertNotNull($response);
     }
 
+    public function testGetZfsItemQuantitySnapshots()
+    {
+        $client = $this->createMockedClient('zalando-zfs-item-quantity-snapshots.json');
+
+        $response = $client->getZfsItemQuantitySnapshots();
+
+        $this->assertNotNull($response);
+    }
+
     public function testGetAttributeType()
     {
         $client = $this->createMockedClient('zalando-attribute-type.json');

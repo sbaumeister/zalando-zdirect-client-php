@@ -3,6 +3,7 @@
 namespace Baumeister\ZalandoClient;
 
 use Baumeister\ZalandoClient\Model\AttributesPagedResponse;
+use Baumeister\ZalandoClient\Model\ItemQuantitiesSnapshot;
 use Baumeister\ZalandoClient\Model\LookUp;
 use Baumeister\ZalandoClient\Model\OrderItem;
 use Baumeister\ZalandoClient\Model\OrderLine;
@@ -12,6 +13,7 @@ use Baumeister\ZalandoClient\Model\OutlinesPagedResponse;
 use Baumeister\ZalandoClient\Model\ProductPrice;
 use Baumeister\ZalandoClient\Model\ProductSubmission;
 use Baumeister\ZalandoClient\Model\ResourceObject;
+use Baumeister\ZalandoClient\Model\StockLocations;
 use Baumeister\ZalandoClient\Model\StockUpdatePerSalesChannel;
 use Baumeister\ZalandoClient\Model\StockUpdatesRequest;
 use Baumeister\ZalandoClient\Model\TypeResponse;
@@ -189,6 +191,36 @@ class ZalandoClient
         ]);
         $data = json_decode($response->getBody()->getContents());
         return $this->jsonMapper->map($data, new OutlinesPagedResponse());
+    }
+
+    /**
+     * @throws GuzzleException
+     * @throws JsonMapper_Exception
+     */
+    public function getZfsItemQuantitySnapshots(): ItemQuantitiesSnapshot {
+        $response = $this->guzzleClient->get("/zfs/item-quantity-snapshots/$this->merchantId", [
+            'headers' => [
+                'Authorization' => "Bearer $this->accessToken",
+                'Accept' => 'application/vnd.api+json'
+            ],
+        ]);
+        $data = json_decode($response->getBody()->getContents());
+        return $this->jsonMapper->map($data, new ItemQuantitiesSnapshot());
+    }
+
+    /**
+     * @throws GuzzleException
+     * @throws JsonMapper_Exception
+     */
+    public function getZfsStockLocations(): StockLocations {
+        $response = $this->guzzleClient->get("/zfs/stock-locations", [
+            'headers' => [
+                'Authorization' => "Bearer $this->accessToken",
+                'Accept' => 'application/vnd.api+json'
+            ],
+        ]);
+        $data = json_decode($response->getBody()->getContents());
+        return $this->jsonMapper->map($data, new StockLocations());
     }
 
     /**
